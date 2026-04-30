@@ -34,6 +34,7 @@
             this.label14 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
@@ -45,22 +46,21 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.groupBox10 = new System.Windows.Forms.GroupBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.label13 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
+            this.button4 = new System.Windows.Forms.Button();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.TIME_STAMP = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ACTION = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.USER = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.RESOURCE_TYPE = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.RESOURCE_ID = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.IP_ADDRESS = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CHANGES = new System.Windows.Forms.DataGridViewLinkColumn();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
             this.label16 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
@@ -71,28 +71,28 @@
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.textBox24 = new System.Windows.Forms.TextBox();
             this.label20 = new System.Windows.Forms.Label();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.TIME_STAMP = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ACTION = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.USER = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.RESOURCE_TYPE = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.RESOURCE_ID = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.IP_ADDRESS = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CHANGES = new System.Windows.Forms.DataGridViewLinkColumn();
-            this.button4 = new System.Windows.Forms.Button();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox6.SuspendLayout();
             this.groupBox10.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.groupBox3.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            this.groupBox4.SuspendLayout();
-            this.groupBox5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.groupBox7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            this.groupBox5.SuspendLayout();
+            this.groupBox4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // label8
@@ -143,6 +143,18 @@
             this.groupBox2.Size = new System.Drawing.Size(754, 74);
             this.groupBox2.TabIndex = 46;
             this.groupBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = global::CyberTrack_Administrator.Properties.Resources.CyberTrackLogo;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.ErrorImage = null;
+            this.pictureBox1.InitialImage = null;
+            this.pictureBox1.Location = new System.Drawing.Point(6, 19);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(44, 42);
+            this.pictureBox1.TabIndex = 25;
+            this.pictureBox1.TabStop = false;
             // 
             // label2
             // 
@@ -259,6 +271,18 @@
             this.groupBox10.TabIndex = 45;
             this.groupBox10.TabStop = false;
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox2.ErrorImage = null;
+            this.pictureBox2.InitialImage = null;
+            this.pictureBox2.Location = new System.Drawing.Point(11, 19);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(44, 42);
+            this.pictureBox2.TabIndex = 5;
+            this.pictureBox2.TabStop = false;
+            // 
             // label7
             // 
             this.label7.AutoSize = true;
@@ -279,6 +303,16 @@
             this.groupBox3.Size = new System.Drawing.Size(390, 100);
             this.groupBox3.TabIndex = 26;
             this.groupBox3.TabStop = false;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(6, 68);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(128, 15);
+            this.label13.TabIndex = 53;
+            this.label13.Text = "Logged system events";
             // 
             // label9
             // 
@@ -307,131 +341,85 @@
             this.groupBox1.TabIndex = 43;
             this.groupBox1.TabStop = false;
             // 
-            // pictureBox1
+            // button4
             // 
-            this.pictureBox1.BackgroundImage = global::CyberTrack_Administrator.Properties.Resources.CyberTrackLogo;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.ErrorImage = null;
-            this.pictureBox1.InitialImage = null;
-            this.pictureBox1.Location = new System.Drawing.Point(6, 19);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(44, 42);
-            this.pictureBox1.TabIndex = 25;
-            this.pictureBox1.TabStop = false;
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Location = new System.Drawing.Point(1071, 19);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(162, 42);
+            this.button4.TabIndex = 58;
+            this.button4.Text = "EXPORT LOGS";
+            this.button4.UseVisualStyleBackColor = true;
             // 
-            // pictureBox2
+            // dataGridView2
             // 
-            this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.ErrorImage = null;
-            this.pictureBox2.InitialImage = null;
-            this.pictureBox2.Location = new System.Drawing.Point(11, 19);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(44, 42);
-            this.pictureBox2.TabIndex = 5;
-            this.pictureBox2.TabStop = false;
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.TIME_STAMP,
+            this.ACTION,
+            this.USER,
+            this.RESOURCE_TYPE,
+            this.RESOURCE_ID,
+            this.IP_ADDRESS,
+            this.CHANGES});
+            this.dataGridView2.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
+            this.dataGridView2.Location = new System.Drawing.Point(27, 322);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.Size = new System.Drawing.Size(1206, 630);
+            this.dataGridView2.TabIndex = 72;
             // 
-            // pictureBox3
+            // TIME_STAMP
             // 
-            this.pictureBox3.BackgroundImage = global::CyberTrack_Administrator.Properties.Resources.CyberTrack_Icon;
-            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox3.ErrorImage = null;
-            this.pictureBox3.InitialImage = null;
-            this.pictureBox3.Location = new System.Drawing.Point(27, 19);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(44, 42);
-            this.pictureBox3.TabIndex = 23;
-            this.pictureBox3.TabStop = false;
+            this.TIME_STAMP.HeaderText = "TIMESTAMP";
+            this.TIME_STAMP.Name = "TIME_STAMP";
+            this.TIME_STAMP.ReadOnly = true;
+            this.TIME_STAMP.Width = 166;
             // 
-            // groupBox4
+            // ACTION
             // 
-            this.groupBox4.Controls.Add(this.label17);
-            this.groupBox4.Controls.Add(this.textBox2);
-            this.groupBox4.Controls.Add(this.label11);
-            this.groupBox4.Location = new System.Drawing.Point(435, 67);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(390, 100);
-            this.groupBox4.TabIndex = 27;
-            this.groupBox4.TabStop = false;
+            this.ACTION.HeaderText = "ACTION";
+            this.ACTION.Name = "ACTION";
+            this.ACTION.ReadOnly = true;
+            this.ACTION.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.ACTION.Width = 166;
             // 
-            // textBox2
+            // USER
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(9, 34);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(111, 31);
-            this.textBox2.TabIndex = 5;
+            this.USER.HeaderText = "USER";
+            this.USER.Name = "USER";
+            this.USER.ReadOnly = true;
+            this.USER.Width = 166;
             // 
-            // label11
+            // RESOURCE_TYPE
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(6, 16);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(103, 15);
-            this.label11.TabIndex = 4;
-            this.label11.Text = "ACTION TYPES";
+            this.RESOURCE_TYPE.HeaderText = "RESOURCE TYPE";
+            this.RESOURCE_TYPE.Name = "RESOURCE_TYPE";
+            this.RESOURCE_TYPE.ReadOnly = true;
+            this.RESOURCE_TYPE.Width = 167;
             // 
-            // groupBox5
+            // RESOURCE_ID
             // 
-            this.groupBox5.Controls.Add(this.label18);
-            this.groupBox5.Controls.Add(this.textBox3);
-            this.groupBox5.Controls.Add(this.label12);
-            this.groupBox5.Location = new System.Drawing.Point(843, 67);
-            this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(390, 100);
-            this.groupBox5.TabIndex = 27;
-            this.groupBox5.TabStop = false;
+            this.RESOURCE_ID.HeaderText = "RESOURCE ID";
+            this.RESOURCE_ID.Name = "RESOURCE_ID";
+            this.RESOURCE_ID.ReadOnly = true;
+            this.RESOURCE_ID.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.RESOURCE_ID.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.RESOURCE_ID.Width = 166;
             // 
-            // textBox3
+            // IP_ADDRESS
             // 
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(9, 34);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(127, 31);
-            this.textBox3.TabIndex = 5;
+            this.IP_ADDRESS.HeaderText = "IP ADDRESS";
+            this.IP_ADDRESS.Name = "IP_ADDRESS";
+            this.IP_ADDRESS.ReadOnly = true;
+            this.IP_ADDRESS.Width = 166;
             // 
-            // label12
+            // CHANGES
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(6, 16);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(130, 15);
-            this.label12.TabIndex = 4;
-            this.label12.Text = "RESOURCE TYPES";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(6, 68);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(128, 15);
-            this.label13.TabIndex = 53;
-            this.label13.Text = "Logged system events";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(6, 68);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(114, 15);
-            this.label17.TabIndex = 54;
-            this.label17.Text = "Distinct action types";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(8, 68);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(135, 15);
-            this.label18.TabIndex = 55;
-            this.label18.Text = "Different resource types";
+            this.CHANGES.HeaderText = "CHANGES";
+            this.CHANGES.Name = "CHANGES";
+            this.CHANGES.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.CHANGES.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.CHANGES.Width = 166;
             // 
             // groupBox7
             // 
@@ -537,7 +525,6 @@
             this.textBox24.Name = "textBox24";
             this.textBox24.Size = new System.Drawing.Size(381, 20);
             this.textBox24.TabIndex = 24;
-            this.textBox24.Text = "Search logs...";
             // 
             // label20
             // 
@@ -549,85 +536,97 @@
             this.label20.TabIndex = 19;
             this.label20.Text = "FILTERS";
             // 
-            // dataGridView2
+            // groupBox5
             // 
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.TIME_STAMP,
-            this.ACTION,
-            this.USER,
-            this.RESOURCE_TYPE,
-            this.RESOURCE_ID,
-            this.IP_ADDRESS,
-            this.CHANGES});
-            this.dataGridView2.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
-            this.dataGridView2.Location = new System.Drawing.Point(27, 322);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.Size = new System.Drawing.Size(1206, 630);
-            this.dataGridView2.TabIndex = 72;
+            this.groupBox5.Controls.Add(this.label18);
+            this.groupBox5.Controls.Add(this.textBox3);
+            this.groupBox5.Controls.Add(this.label12);
+            this.groupBox5.Location = new System.Drawing.Point(843, 67);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Size = new System.Drawing.Size(390, 100);
+            this.groupBox5.TabIndex = 27;
+            this.groupBox5.TabStop = false;
             // 
-            // TIME_STAMP
+            // label18
             // 
-            this.TIME_STAMP.HeaderText = "TIMESTAMP";
-            this.TIME_STAMP.Name = "TIME_STAMP";
-            this.TIME_STAMP.ReadOnly = true;
-            this.TIME_STAMP.Width = 166;
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(8, 68);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(135, 15);
+            this.label18.TabIndex = 55;
+            this.label18.Text = "Different resource types";
             // 
-            // ACTION
+            // textBox3
             // 
-            this.ACTION.HeaderText = "ACTION";
-            this.ACTION.Name = "ACTION";
-            this.ACTION.ReadOnly = true;
-            this.ACTION.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.ACTION.Width = 166;
+            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox3.Location = new System.Drawing.Point(9, 34);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.ReadOnly = true;
+            this.textBox3.Size = new System.Drawing.Size(127, 31);
+            this.textBox3.TabIndex = 5;
             // 
-            // USER
+            // label12
             // 
-            this.USER.HeaderText = "USER";
-            this.USER.Name = "USER";
-            this.USER.ReadOnly = true;
-            this.USER.Width = 166;
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(6, 16);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(130, 15);
+            this.label12.TabIndex = 4;
+            this.label12.Text = "RESOURCE TYPES";
             // 
-            // RESOURCE_TYPE
+            // groupBox4
             // 
-            this.RESOURCE_TYPE.HeaderText = "RESOURCE TYPE";
-            this.RESOURCE_TYPE.Name = "RESOURCE_TYPE";
-            this.RESOURCE_TYPE.ReadOnly = true;
-            this.RESOURCE_TYPE.Width = 167;
+            this.groupBox4.Controls.Add(this.label17);
+            this.groupBox4.Controls.Add(this.textBox2);
+            this.groupBox4.Controls.Add(this.label11);
+            this.groupBox4.Location = new System.Drawing.Point(435, 67);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(390, 100);
+            this.groupBox4.TabIndex = 27;
+            this.groupBox4.TabStop = false;
             // 
-            // RESOURCE_ID
+            // label17
             // 
-            this.RESOURCE_ID.HeaderText = "RESOURCE ID";
-            this.RESOURCE_ID.Name = "RESOURCE_ID";
-            this.RESOURCE_ID.ReadOnly = true;
-            this.RESOURCE_ID.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.RESOURCE_ID.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.RESOURCE_ID.Width = 166;
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(6, 68);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(114, 15);
+            this.label17.TabIndex = 54;
+            this.label17.Text = "Distinct action types";
             // 
-            // IP_ADDRESS
+            // textBox2
             // 
-            this.IP_ADDRESS.HeaderText = "IP ADDRESS";
-            this.IP_ADDRESS.Name = "IP_ADDRESS";
-            this.IP_ADDRESS.ReadOnly = true;
-            this.IP_ADDRESS.Width = 166;
+            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Location = new System.Drawing.Point(9, 34);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.ReadOnly = true;
+            this.textBox2.Size = new System.Drawing.Size(111, 31);
+            this.textBox2.TabIndex = 5;
             // 
-            // CHANGES
+            // label11
             // 
-            this.CHANGES.HeaderText = "CHANGES";
-            this.CHANGES.Name = "CHANGES";
-            this.CHANGES.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.CHANGES.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.CHANGES.Width = 166;
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(6, 16);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(103, 15);
+            this.label11.TabIndex = 4;
+            this.label11.Text = "ACTION TYPES";
             // 
-            // button4
+            // pictureBox3
             // 
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(1071, 19);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(162, 42);
-            this.button4.TabIndex = 58;
-            this.button4.Text = "EXPORT LOGS";
-            this.button4.UseVisualStyleBackColor = true;
+            this.pictureBox3.BackgroundImage = global::CyberTrack_Administrator.Properties.Resources.CyberTrack_Icon;
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox3.ErrorImage = null;
+            this.pictureBox3.InitialImage = null;
+            this.pictureBox3.Location = new System.Drawing.Point(27, 19);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(44, 42);
+            this.pictureBox3.TabIndex = 23;
+            this.pictureBox3.TabStop = false;
             // 
             // AuditLogs_Administrator
             // 
@@ -643,25 +642,25 @@
             this.Text = "AuditLogs_Administrator";
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox6.ResumeLayout(false);
             this.groupBox6.PerformLayout();
             this.groupBox10.ResumeLayout(false);
             this.groupBox10.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            this.groupBox4.ResumeLayout(false);
-            this.groupBox4.PerformLayout();
-            this.groupBox5.ResumeLayout(false);
-            this.groupBox5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.groupBox7.ResumeLayout(false);
             this.groupBox7.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            this.groupBox5.ResumeLayout(false);
+            this.groupBox5.PerformLayout();
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
 
         }

@@ -313,7 +313,6 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(736, 20);
             this.textBox3.TabIndex = 22;
-            this.textBox3.Text = " e.g., Web Server, Database, Workstation ID";
             // 
             // comboBox2
             // 
@@ -477,7 +476,6 @@
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(736, 20);
             this.textBox6.TabIndex = 34;
-            this.textBox6.Text = " e.g., Organization-wide, Department-specific, Individual user";
             // 
             // label28
             // 
