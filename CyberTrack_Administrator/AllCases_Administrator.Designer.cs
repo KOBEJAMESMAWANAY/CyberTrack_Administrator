@@ -47,6 +47,7 @@
             this.label7 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.Select_Box = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.CASE_ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Title = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.SEVERITY = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -98,6 +99,8 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BackgroundImage = global::CyberTrack_Administrator.Properties.Resources.CyberTrackLogo;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.ErrorImage = null;
             this.pictureBox1.InitialImage = null;
             this.pictureBox1.Location = new System.Drawing.Point(6, 19);
@@ -223,6 +226,7 @@
             // 
             // pictureBox2
             // 
+            this.pictureBox2.BackgroundImage = global::CyberTrack_Administrator.Properties.Resources.UserIcon;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox2.ErrorImage = null;
             this.pictureBox2.InitialImage = null;
@@ -269,6 +273,7 @@
             // 
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Select_Box,
             this.CASE_ID,
             this.Title,
             this.SEVERITY,
@@ -284,47 +289,55 @@
             this.dataGridView2.Size = new System.Drawing.Size(1219, 598);
             this.dataGridView2.TabIndex = 70;
             // 
+            // Select_Box
+            // 
+            this.Select_Box.HeaderText = "";
+            this.Select_Box.Name = "Select_Box";
+            this.Select_Box.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.Select_Box.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.Select_Box.Width = 107;
+            // 
             // CASE_ID
             // 
             this.CASE_ID.HeaderText = "CASE ID";
             this.CASE_ID.Name = "CASE_ID";
             this.CASE_ID.ReadOnly = true;
-            this.CASE_ID.Width = 118;
+            this.CASE_ID.Width = 107;
             // 
             // Title
             // 
             this.Title.HeaderText = "TITLE";
             this.Title.Name = "Title";
             this.Title.ReadOnly = true;
-            this.Title.Width = 117;
+            this.Title.Width = 107;
             // 
             // SEVERITY
             // 
             this.SEVERITY.HeaderText = "SEVERITY";
             this.SEVERITY.Name = "SEVERITY";
             this.SEVERITY.ReadOnly = true;
-            this.SEVERITY.Width = 118;
+            this.SEVERITY.Width = 107;
             // 
             // STATUS
             // 
             this.STATUS.HeaderText = "STATUS";
             this.STATUS.Name = "STATUS";
             this.STATUS.ReadOnly = true;
-            this.STATUS.Width = 117;
+            this.STATUS.Width = 107;
             // 
             // CATEGORY
             // 
             this.CATEGORY.HeaderText = "CATEGORY";
             this.CATEGORY.Name = "CATEGORY";
             this.CATEGORY.ReadOnly = true;
-            this.CATEGORY.Width = 118;
+            this.CATEGORY.Width = 106;
             // 
             // REPORTER
             // 
             this.REPORTER.HeaderText = "REPORTER";
             this.REPORTER.Name = "REPORTER";
             this.REPORTER.ReadOnly = true;
-            this.REPORTER.Width = 118;
+            this.REPORTER.Width = 107;
             // 
             // ASSIGNED_TO
             // 
@@ -332,21 +345,21 @@
             this.ASSIGNED_TO.Name = "ASSIGNED_TO";
             this.ASSIGNED_TO.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.ASSIGNED_TO.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.ASSIGNED_TO.Width = 117;
+            this.ASSIGNED_TO.Width = 107;
             // 
             // SLA_STATUS
             // 
             this.SLA_STATUS.HeaderText = "SLA STATUS";
             this.SLA_STATUS.Name = "SLA_STATUS";
             this.SLA_STATUS.ReadOnly = true;
-            this.SLA_STATUS.Width = 118;
+            this.SLA_STATUS.Width = 107;
             // 
             // REPORTED_ON
             // 
             this.REPORTED_ON.HeaderText = "REPORTED ON";
             this.REPORTED_ON.Name = "REPORTED_ON";
             this.REPORTED_ON.ReadOnly = true;
-            this.REPORTED_ON.Width = 117;
+            this.REPORTED_ON.Width = 107;
             // 
             // ACTION
             // 
@@ -355,7 +368,7 @@
             this.ACTION.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.ACTION.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
             this.ACTION.Text = "MANAGE";
-            this.ACTION.Width = 118;
+            this.ACTION.Width = 107;
             // 
             // label25
             // 
@@ -460,7 +473,16 @@
             // 
             // comboBox3
             // 
+            this.comboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Items.AddRange(new object[] {
+            "ALL CATEGORIES",
+            "MALWARE",
+            "PHISHING",
+            "DATA BREACH",
+            "UNAUTHORIZED ACCESS",
+            "DDOS",
+            "OTHER"});
             this.comboBox3.Location = new System.Drawing.Point(936, 98);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(261, 21);
@@ -468,12 +490,15 @@
             // 
             // comboBox2
             // 
+            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Items.AddRange(new object[] {
-            "New",
-            "Investigating",
-            "Contained",
-            "Closed"});
+            "ALL STATUSES",
+            "NEW",
+            "INVESTIGATING",
+            "CONTAINED",
+            "RESOLVED",
+            "CLOSED"});
             this.comboBox2.Location = new System.Drawing.Point(627, 98);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(261, 21);
@@ -481,12 +506,14 @@
             // 
             // comboBox1
             // 
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
-            "Low",
-            "Medium",
-            "High",
-            "Critical"});
+            "ALL SEVERITIES",
+            "CRITICAL",
+            "HIGH",
+            "MEDIUM",
+            "LOW"});
             this.comboBox1.Location = new System.Drawing.Point(310, 98);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(261, 21);
@@ -521,6 +548,7 @@
             // 
             // pictureBox4
             // 
+            this.pictureBox4.BackgroundImage = global::CyberTrack_Administrator.Properties.Resources.CyberTrack_Icon;
             this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox4.ErrorImage = null;
             this.pictureBox4.InitialImage = null;
@@ -596,6 +624,7 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.DataGridView dataGridView2;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn Select_Box;
         private System.Windows.Forms.DataGridViewTextBoxColumn CASE_ID;
         private System.Windows.Forms.DataGridViewTextBoxColumn Title;
         private System.Windows.Forms.DataGridViewTextBoxColumn SEVERITY;

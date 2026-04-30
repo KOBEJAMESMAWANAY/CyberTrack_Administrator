@@ -104,6 +104,9 @@
     <Compile Include="SubmitReport_Administrator.Designer.cs">
       <DependentUpon>SubmitReport_Administrator.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AdminPanel_Administrator.resx">
+      <DependentUpon>AdminPanel_Administrator.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AllCases_Administrator.resx">
       <DependentUpon>AllCases_Administrator.cs</DependentUpon>
     </EmbeddedResource>
@@ -157,6 +160,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\CyberTrack Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AuditLogsIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SystemIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CriticalCasesIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CyberTrackLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UserMIcon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
