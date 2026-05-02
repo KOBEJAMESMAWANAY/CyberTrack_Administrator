@@ -32,7 +32,7 @@
             this.label8 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
+            this.lblAllCasesNofN_Analyst = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -50,9 +50,9 @@
             this.label7 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.label13 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
+            this.lblAllCasesCasesManagement_Analyst = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btnAllCasesExport_Analyst = new System.Windows.Forms.Button();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.TIME_STAMP = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ACTION = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -61,16 +61,16 @@
             this.RESOURCE_ID = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.IP_ADDRESS = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.CHANGES = new System.Windows.Forms.DataGridViewLinkColumn();
-            this.groupBox7 = new System.Windows.Forms.GroupBox();
+            this.groupBox5_Analyst = new System.Windows.Forms.GroupBox();
             this.label16 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
+            this.lblAllCasesSearch_Analyst = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.lblFilterNSearch_Analyst = new System.Windows.Forms.Label();
+            this.picAllCasesFilters_Analyst = new System.Windows.Forms.PictureBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.textBox24 = new System.Windows.Forms.TextBox();
-            this.label20 = new System.Windows.Forms.Label();
+            this.lblAllCasesFilters_Analyst = new System.Windows.Forms.Label();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.label18 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
@@ -79,7 +79,7 @@
             this.label17 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.picAllCasesCasesManagement_Analyst = new System.Windows.Forms.PictureBox();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox6.SuspendLayout();
@@ -88,11 +88,11 @@
             this.groupBox3.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
-            this.groupBox7.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            this.groupBox5_Analyst.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picAllCasesFilters_Analyst)).BeginInit();
             this.groupBox5.SuspendLayout();
             this.groupBox4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picAllCasesCasesManagement_Analyst)).BeginInit();
             this.SuspendLayout();
             // 
             // label8
@@ -123,15 +123,15 @@
             this.label14.TabIndex = 4;
             this.label14.Text = "TOTAL CASES";
             // 
-            // label10
+            // lblAllCasesNofN_Analyst
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(77, 46);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(218, 15);
-            this.label10.TabIndex = 25;
-            this.label10.Text = "Complete audit trail - N OF N ENTRIES";
+            this.lblAllCasesNofN_Analyst.AutoSize = true;
+            this.lblAllCasesNofN_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAllCasesNofN_Analyst.Location = new System.Drawing.Point(77, 46);
+            this.lblAllCasesNofN_Analyst.Name = "lblAllCasesNofN_Analyst";
+            this.lblAllCasesNofN_Analyst.Size = new System.Drawing.Size(218, 15);
+            this.lblAllCasesNofN_Analyst.TabIndex = 25;
+            this.lblAllCasesNofN_Analyst.Text = "Complete audit trail - N OF N ENTRIES";
             // 
             // groupBox2
             // 
@@ -314,42 +314,42 @@
             this.label13.TabIndex = 53;
             this.label13.Text = "Logged system events";
             // 
-            // label9
+            // lblAllCasesCasesManagement_Analyst
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(77, 19);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(107, 18);
-            this.label9.TabIndex = 24;
-            this.label9.Text = "AUDIT LOGS";
+            this.lblAllCasesCasesManagement_Analyst.AutoSize = true;
+            this.lblAllCasesCasesManagement_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAllCasesCasesManagement_Analyst.Location = new System.Drawing.Point(77, 19);
+            this.lblAllCasesCasesManagement_Analyst.Name = "lblAllCasesCasesManagement_Analyst";
+            this.lblAllCasesCasesManagement_Analyst.Size = new System.Drawing.Size(107, 18);
+            this.lblAllCasesCasesManagement_Analyst.TabIndex = 24;
+            this.lblAllCasesCasesManagement_Analyst.Text = "AUDIT LOGS";
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.button4);
+            this.groupBox1.Controls.Add(this.btnAllCasesExport_Analyst);
             this.groupBox1.Controls.Add(this.dataGridView2);
-            this.groupBox1.Controls.Add(this.groupBox7);
+            this.groupBox1.Controls.Add(this.groupBox5_Analyst);
             this.groupBox1.Controls.Add(this.groupBox5);
             this.groupBox1.Controls.Add(this.groupBox4);
             this.groupBox1.Controls.Add(this.groupBox3);
-            this.groupBox1.Controls.Add(this.label10);
-            this.groupBox1.Controls.Add(this.label9);
-            this.groupBox1.Controls.Add(this.pictureBox3);
+            this.groupBox1.Controls.Add(this.lblAllCasesNofN_Analyst);
+            this.groupBox1.Controls.Add(this.lblAllCasesCasesManagement_Analyst);
+            this.groupBox1.Controls.Add(this.picAllCasesCasesManagement_Analyst);
             this.groupBox1.Location = new System.Drawing.Point(12, 86);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(1260, 968);
             this.groupBox1.TabIndex = 43;
             this.groupBox1.TabStop = false;
             // 
-            // button4
+            // btnAllCasesExport_Analyst
             // 
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(1071, 19);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(162, 42);
-            this.button4.TabIndex = 58;
-            this.button4.Text = "EXPORT LOGS";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnAllCasesExport_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAllCasesExport_Analyst.Location = new System.Drawing.Point(1071, 19);
+            this.btnAllCasesExport_Analyst.Name = "btnAllCasesExport_Analyst";
+            this.btnAllCasesExport_Analyst.Size = new System.Drawing.Size(162, 42);
+            this.btnAllCasesExport_Analyst.TabIndex = 58;
+            this.btnAllCasesExport_Analyst.Text = "EXPORT LOGS";
+            this.btnAllCasesExport_Analyst.UseVisualStyleBackColor = true;
             // 
             // dataGridView2
             // 
@@ -421,22 +421,22 @@
             this.CHANGES.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
             this.CHANGES.Width = 166;
             // 
-            // groupBox7
+            // groupBox5_Analyst
             // 
-            this.groupBox7.Controls.Add(this.label16);
-            this.groupBox7.Controls.Add(this.label19);
-            this.groupBox7.Controls.Add(this.label27);
-            this.groupBox7.Controls.Add(this.label26);
-            this.groupBox7.Controls.Add(this.pictureBox4);
-            this.groupBox7.Controls.Add(this.comboBox2);
-            this.groupBox7.Controls.Add(this.comboBox1);
-            this.groupBox7.Controls.Add(this.textBox24);
-            this.groupBox7.Controls.Add(this.label20);
-            this.groupBox7.Location = new System.Drawing.Point(27, 173);
-            this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(1206, 136);
-            this.groupBox7.TabIndex = 53;
-            this.groupBox7.TabStop = false;
+            this.groupBox5_Analyst.Controls.Add(this.label16);
+            this.groupBox5_Analyst.Controls.Add(this.lblAllCasesSearch_Analyst);
+            this.groupBox5_Analyst.Controls.Add(this.label27);
+            this.groupBox5_Analyst.Controls.Add(this.lblFilterNSearch_Analyst);
+            this.groupBox5_Analyst.Controls.Add(this.picAllCasesFilters_Analyst);
+            this.groupBox5_Analyst.Controls.Add(this.comboBox2);
+            this.groupBox5_Analyst.Controls.Add(this.comboBox1);
+            this.groupBox5_Analyst.Controls.Add(this.textBox24);
+            this.groupBox5_Analyst.Controls.Add(this.lblAllCasesFilters_Analyst);
+            this.groupBox5_Analyst.Location = new System.Drawing.Point(27, 173);
+            this.groupBox5_Analyst.Name = "groupBox5_Analyst";
+            this.groupBox5_Analyst.Size = new System.Drawing.Size(1206, 136);
+            this.groupBox5_Analyst.TabIndex = 53;
+            this.groupBox5_Analyst.TabStop = false;
             // 
             // label16
             // 
@@ -448,15 +448,15 @@
             this.label16.TabIndex = 57;
             this.label16.Text = "Resource Type";
             // 
-            // label19
+            // lblAllCasesSearch_Analyst
             // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(7, 67);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(76, 24);
-            this.label19.TabIndex = 56;
-            this.label19.Text = "Search";
+            this.lblAllCasesSearch_Analyst.AutoSize = true;
+            this.lblAllCasesSearch_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAllCasesSearch_Analyst.Location = new System.Drawing.Point(7, 67);
+            this.lblAllCasesSearch_Analyst.Name = "lblAllCasesSearch_Analyst";
+            this.lblAllCasesSearch_Analyst.Size = new System.Drawing.Size(76, 24);
+            this.lblAllCasesSearch_Analyst.TabIndex = 56;
+            this.lblAllCasesSearch_Analyst.Text = "Search";
             // 
             // label27
             // 
@@ -468,27 +468,27 @@
             this.label27.TabIndex = 55;
             this.label27.Text = "Action Type";
             // 
-            // label26
+            // lblFilterNSearch_Analyst
             // 
-            this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.Location = new System.Drawing.Point(6, 47);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(277, 15);
-            this.label26.TabIndex = 54;
-            this.label26.Text = "Filter audit logs by action, resource type, or search";
+            this.lblFilterNSearch_Analyst.AutoSize = true;
+            this.lblFilterNSearch_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFilterNSearch_Analyst.Location = new System.Drawing.Point(6, 47);
+            this.lblFilterNSearch_Analyst.Name = "lblFilterNSearch_Analyst";
+            this.lblFilterNSearch_Analyst.Size = new System.Drawing.Size(277, 15);
+            this.lblFilterNSearch_Analyst.TabIndex = 54;
+            this.lblFilterNSearch_Analyst.Text = "Filter audit logs by action, resource type, or search";
             // 
-            // pictureBox4
+            // picAllCasesFilters_Analyst
             // 
-            this.pictureBox4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox4.BackgroundImage")));
-            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox4.ErrorImage = null;
-            this.pictureBox4.InitialImage = null;
-            this.pictureBox4.Location = new System.Drawing.Point(9, 19);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(26, 25);
-            this.pictureBox4.TabIndex = 53;
-            this.pictureBox4.TabStop = false;
+            this.picAllCasesFilters_Analyst.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picAllCasesFilters_Analyst.BackgroundImage")));
+            this.picAllCasesFilters_Analyst.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picAllCasesFilters_Analyst.ErrorImage = null;
+            this.picAllCasesFilters_Analyst.InitialImage = null;
+            this.picAllCasesFilters_Analyst.Location = new System.Drawing.Point(9, 19);
+            this.picAllCasesFilters_Analyst.Name = "picAllCasesFilters_Analyst";
+            this.picAllCasesFilters_Analyst.Size = new System.Drawing.Size(26, 25);
+            this.picAllCasesFilters_Analyst.TabIndex = 53;
+            this.picAllCasesFilters_Analyst.TabStop = false;
             // 
             // comboBox2
             // 
@@ -526,15 +526,15 @@
             this.textBox24.Size = new System.Drawing.Size(381, 20);
             this.textBox24.TabIndex = 24;
             // 
-            // label20
+            // lblAllCasesFilters_Analyst
             // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(39, 19);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(105, 25);
-            this.label20.TabIndex = 19;
-            this.label20.Text = "FILTERS";
+            this.lblAllCasesFilters_Analyst.AutoSize = true;
+            this.lblAllCasesFilters_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAllCasesFilters_Analyst.Location = new System.Drawing.Point(39, 19);
+            this.lblAllCasesFilters_Analyst.Name = "lblAllCasesFilters_Analyst";
+            this.lblAllCasesFilters_Analyst.Size = new System.Drawing.Size(105, 25);
+            this.lblAllCasesFilters_Analyst.TabIndex = 19;
+            this.lblAllCasesFilters_Analyst.Text = "FILTERS";
             // 
             // groupBox5
             // 
@@ -616,17 +616,17 @@
             this.label11.TabIndex = 4;
             this.label11.Text = "ACTION TYPES";
             // 
-            // pictureBox3
+            // picAllCasesCasesManagement_Analyst
             // 
-            this.pictureBox3.BackgroundImage = global::CyberTrack_Administrator.Properties.Resources.CyberTrack_Icon;
-            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox3.ErrorImage = null;
-            this.pictureBox3.InitialImage = null;
-            this.pictureBox3.Location = new System.Drawing.Point(27, 19);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(44, 42);
-            this.pictureBox3.TabIndex = 23;
-            this.pictureBox3.TabStop = false;
+            this.picAllCasesCasesManagement_Analyst.BackgroundImage = global::CyberTrack_Administrator.Properties.Resources.CyberTrack_Icon;
+            this.picAllCasesCasesManagement_Analyst.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picAllCasesCasesManagement_Analyst.ErrorImage = null;
+            this.picAllCasesCasesManagement_Analyst.InitialImage = null;
+            this.picAllCasesCasesManagement_Analyst.Location = new System.Drawing.Point(27, 19);
+            this.picAllCasesCasesManagement_Analyst.Name = "picAllCasesCasesManagement_Analyst";
+            this.picAllCasesCasesManagement_Analyst.Size = new System.Drawing.Size(44, 42);
+            this.picAllCasesCasesManagement_Analyst.TabIndex = 23;
+            this.picAllCasesCasesManagement_Analyst.TabStop = false;
             // 
             // AuditLogs_Administrator
             // 
@@ -653,14 +653,14 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
-            this.groupBox7.ResumeLayout(false);
-            this.groupBox7.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            this.groupBox5_Analyst.ResumeLayout(false);
+            this.groupBox5_Analyst.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picAllCasesFilters_Analyst)).EndInit();
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picAllCasesCasesManagement_Analyst)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -670,8 +670,8 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Label lblAllCasesNofN_Analyst;
+        private System.Windows.Forms.PictureBox picAllCasesCasesManagement_Analyst;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label2;
@@ -688,7 +688,7 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label lblAllCasesCasesManagement_Analyst;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.GroupBox groupBox5;
@@ -699,16 +699,16 @@
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.GroupBox groupBox7;
+        private System.Windows.Forms.GroupBox groupBox5_Analyst;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label lblAllCasesSearch_Analyst;
         private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.Label lblFilterNSearch_Analyst;
+        private System.Windows.Forms.PictureBox picAllCasesFilters_Analyst;
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.TextBox textBox24;
-        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label lblAllCasesFilters_Analyst;
         private System.Windows.Forms.DataGridView dataGridView2;
         private System.Windows.Forms.DataGridViewTextBoxColumn TIME_STAMP;
         private System.Windows.Forms.DataGridViewTextBoxColumn ACTION;
@@ -717,6 +717,6 @@
         private System.Windows.Forms.DataGridViewComboBoxColumn RESOURCE_ID;
         private System.Windows.Forms.DataGridViewTextBoxColumn IP_ADDRESS;
         private System.Windows.Forms.DataGridViewLinkColumn CHANGES;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnAllCasesExport_Analyst;
     }
 }
