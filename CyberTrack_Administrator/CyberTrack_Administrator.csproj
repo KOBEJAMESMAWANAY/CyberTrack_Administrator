@@ -12,6 +12,7 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -24,7 +25,6 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -67,6 +67,42 @@
     <Compile Include="AdminPanel_Administrator.Designer.cs">
       <DependentUpon>AdminPanel_Administrator.cs</DependentUpon>
     </Compile>
+    <Compile Include="AdminProfileInformation_Administrator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminProfileInformation_Administrator.Designer.cs">
+      <DependentUpon>AdminProfileInformation_Administrator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminProfileSecurity_Administrator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminProfileSecurity_Administrator.Designer.cs">
+      <DependentUpon>AdminProfileSecurity_Administrator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllCasesAuditTrail_Administrator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllCasesAuditTrail_Administrator.Designer.cs">
+      <DependentUpon>AllCasesAuditTrail_Administrator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllCasesEvidence2_Administrator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllCasesEvidence2_Administrator.Designer.cs">
+      <DependentUpon>AllCasesEvidence2_Administrator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllCasesEvidence_Administrator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllCasesEvidence_Administrator.Designer.cs">
+      <DependentUpon>AllCasesEvidence_Administrator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllCasesStatusWorkflow_Administrator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllCasesStatusWorkflow_Administrator.Designer.cs">
+      <DependentUpon>AllCasesStatusWorkflow_Administrator.cs</DependentUpon>
+    </Compile>
     <Compile Include="AllCases_Administrator.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -106,6 +142,24 @@
     </Compile>
     <EmbeddedResource Include="AdminPanel_Administrator.resx">
       <DependentUpon>AdminPanel_Administrator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminProfileInformation_Administrator.resx">
+      <DependentUpon>AdminProfileInformation_Administrator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminProfileSecurity_Administrator.resx">
+      <DependentUpon>AdminProfileSecurity_Administrator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllCasesAuditTrail_Administrator.resx">
+      <DependentUpon>AllCasesAuditTrail_Administrator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllCasesEvidence2_Administrator.resx">
+      <DependentUpon>AllCasesEvidence2_Administrator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllCasesEvidence_Administrator.resx">
+      <DependentUpon>AllCasesEvidence_Administrator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllCasesStatusWorkflow_Administrator.resx">
+      <DependentUpon>AllCasesStatusWorkflow_Administrator.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AllCases_Administrator.resx">
       <DependentUpon>AllCases_Administrator.cs</DependentUpon>
