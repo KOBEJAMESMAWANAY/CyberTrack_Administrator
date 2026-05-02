@@ -35,10 +35,17 @@
             this.btnAllCasesBrowseFiles_Administrator = new System.Windows.Forms.Button();
             this.lblAllCasesSubmitEvidence_Administrator = new System.Windows.Forms.Label();
             this.AFFECTEDSYSgb_ADMINISTRATOR = new System.Windows.Forms.GroupBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgvAllCasesAffectedSystems_Administrator = new System.Windows.Forms.DataGridView();
+            this.cmbAllCasesTypeOfSystem_Administrator = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.cmbAllCasesImpactLevel_Administrator = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.lblAllCasesAffectedSystems_Administrator = new System.Windows.Forms.Label();
             this.groupBox4_ADMINISTRATOR = new System.Windows.Forms.GroupBox();
             this.dgvAllCasesCaseInformation_Administrator = new System.Windows.Forms.DataGridView();
+            this.cmbAllCasesReportercmbAllCasesTypeOfSystem_Administrator = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.cmbAllCasesAssignedTo_Administrator = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.txtAllCasesReportedAt_Administrator = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.txtAllCasesLastUpdated_Administrator = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.txtAllCasesSLADeadline_Administrator = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.lblAllCasesCaseInformation_Administrator = new System.Windows.Forms.Label();
             this.grbLogo_Administrator = new System.Windows.Forms.GroupBox();
             this.picCyberTrackLogo_Administrator = new System.Windows.Forms.PictureBox();
@@ -75,17 +82,6 @@
             this.btnBACKTOCASES_ADMINISTRATOR = new System.Windows.Forms.Button();
             this.ATTACHMENTISSUES_ADMINISTRATOR = new System.Windows.Forms.GroupBox();
             this.dgvAllCasesEvidenceandAttachments_Administrator = new System.Windows.Forms.DataGridView();
-            this.lblAllCasesEvidenceandAttachments_Administrator = new System.Windows.Forms.Label();
-            this.SUBMITEVIDENCEGB_ADMINISTRATOR = new System.Windows.Forms.GroupBox();
-            this.btnAllCasesSubmitEvidence_Administrator = new System.Windows.Forms.Button();
-            this.dgvAllCasesEvidence_Administrator = new System.Windows.Forms.DataGridView();
-            this.cmbAllCasesReportercmbAllCasesTypeOfSystem_Administrator = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.cmbAllCasesAssignedTo_Administrator = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.txtAllCasesReportedAt_Administrator = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.txtAllCasesLastUpdated_Administrator = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.txtAllCasesSLADeadline_Administrator = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cmbAllCasesEvidenceType_Administrator = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.txtAllCasesDescription_Administrator = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.txtAllCasesFileName_Administrator = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.cmbAllCasesType_Administrator = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.txtAllCasesSize_Administrator = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -93,11 +89,15 @@
             this.txtAllCasesUploadedBy_Administrator = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.txtAllCasesDate_Administrator = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnAllCasesActions_Administrator = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.cmbAllCasesTypeOfSystem_Administrator = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.cmbAllCasesImpactLevel_Administrator = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.lblAllCasesEvidenceandAttachments_Administrator = new System.Windows.Forms.Label();
+            this.SUBMITEVIDENCEGB_ADMINISTRATOR = new System.Windows.Forms.GroupBox();
+            this.btnAllCasesSubmitEvidence_Administrator = new System.Windows.Forms.Button();
+            this.dgvAllCasesEvidence_Administrator = new System.Windows.Forms.DataGridView();
+            this.cmbAllCasesEvidenceType_Administrator = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.txtAllCasesDescription_Administrator = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DROPVILESgb_ADMINISTRATOR.SuspendLayout();
             this.AFFECTEDSYSgb_ADMINISTRATOR.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvAllCasesAffectedSystems_Administrator)).BeginInit();
             this.groupBox4_ADMINISTRATOR.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAllCasesCaseInformation_Administrator)).BeginInit();
             this.grbLogo_Administrator.SuspendLayout();
@@ -166,7 +166,7 @@
             // 
             // AFFECTEDSYSgb_ADMINISTRATOR
             // 
-            this.AFFECTEDSYSgb_ADMINISTRATOR.Controls.Add(this.dataGridView1);
+            this.AFFECTEDSYSgb_ADMINISTRATOR.Controls.Add(this.dgvAllCasesAffectedSystems_Administrator);
             this.AFFECTEDSYSgb_ADMINISTRATOR.Controls.Add(this.lblAllCasesAffectedSystems_Administrator);
             this.AFFECTEDSYSgb_ADMINISTRATOR.Location = new System.Drawing.Point(688, 651);
             this.AFFECTEDSYSgb_ADMINISTRATOR.Name = "AFFECTEDSYSgb_ADMINISTRATOR";
@@ -174,16 +174,33 @@
             this.AFFECTEDSYSgb_ADMINISTRATOR.TabIndex = 63;
             this.AFFECTEDSYSgb_ADMINISTRATOR.TabStop = false;
             // 
-            // dataGridView1
+            // dgvAllCasesAffectedSystems_Administrator
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dgvAllCasesAffectedSystems_Administrator.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvAllCasesAffectedSystems_Administrator.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.cmbAllCasesTypeOfSystem_Administrator,
             this.cmbAllCasesImpactLevel_Administrator});
-            this.dataGridView1.Location = new System.Drawing.Point(7, 47);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(544, 150);
-            this.dataGridView1.TabIndex = 32;
+            this.dgvAllCasesAffectedSystems_Administrator.Location = new System.Drawing.Point(7, 47);
+            this.dgvAllCasesAffectedSystems_Administrator.Name = "dgvAllCasesAffectedSystems_Administrator";
+            this.dgvAllCasesAffectedSystems_Administrator.Size = new System.Drawing.Size(544, 150);
+            this.dgvAllCasesAffectedSystems_Administrator.TabIndex = 32;
+            // 
+            // cmbAllCasesTypeOfSystem_Administrator
+            // 
+            this.cmbAllCasesTypeOfSystem_Administrator.FillWeight = 250F;
+            this.cmbAllCasesTypeOfSystem_Administrator.HeaderText = "Type of System";
+            this.cmbAllCasesTypeOfSystem_Administrator.Name = "cmbAllCasesTypeOfSystem_Administrator";
+            this.cmbAllCasesTypeOfSystem_Administrator.ReadOnly = true;
+            this.cmbAllCasesTypeOfSystem_Administrator.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.cmbAllCasesTypeOfSystem_Administrator.Width = 251;
+            // 
+            // cmbAllCasesImpactLevel_Administrator
+            // 
+            this.cmbAllCasesImpactLevel_Administrator.FillWeight = 250F;
+            this.cmbAllCasesImpactLevel_Administrator.HeaderText = "Impact Level";
+            this.cmbAllCasesImpactLevel_Administrator.Name = "cmbAllCasesImpactLevel_Administrator";
+            this.cmbAllCasesImpactLevel_Administrator.ReadOnly = true;
+            this.cmbAllCasesImpactLevel_Administrator.Width = 250;
             // 
             // lblAllCasesAffectedSystems_Administrator
             // 
@@ -218,6 +235,40 @@
             this.dgvAllCasesCaseInformation_Administrator.Name = "dgvAllCasesCaseInformation_Administrator";
             this.dgvAllCasesCaseInformation_Administrator.Size = new System.Drawing.Size(540, 365);
             this.dgvAllCasesCaseInformation_Administrator.TabIndex = 29;
+            // 
+            // cmbAllCasesReportercmbAllCasesTypeOfSystem_Administrator
+            // 
+            this.cmbAllCasesReportercmbAllCasesTypeOfSystem_Administrator.HeaderText = "Reporter";
+            this.cmbAllCasesReportercmbAllCasesTypeOfSystem_Administrator.Name = "cmbAllCasesReportercmbAllCasesTypeOfSystem_Administrator";
+            this.cmbAllCasesReportercmbAllCasesTypeOfSystem_Administrator.ReadOnly = true;
+            this.cmbAllCasesReportercmbAllCasesTypeOfSystem_Administrator.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.cmbAllCasesReportercmbAllCasesTypeOfSystem_Administrator.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            // 
+            // cmbAllCasesAssignedTo_Administrator
+            // 
+            this.cmbAllCasesAssignedTo_Administrator.HeaderText = "Assigned To";
+            this.cmbAllCasesAssignedTo_Administrator.Name = "cmbAllCasesAssignedTo_Administrator";
+            this.cmbAllCasesAssignedTo_Administrator.ReadOnly = true;
+            this.cmbAllCasesAssignedTo_Administrator.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.cmbAllCasesAssignedTo_Administrator.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            // 
+            // txtAllCasesReportedAt_Administrator
+            // 
+            this.txtAllCasesReportedAt_Administrator.HeaderText = "Reported At";
+            this.txtAllCasesReportedAt_Administrator.Name = "txtAllCasesReportedAt_Administrator";
+            this.txtAllCasesReportedAt_Administrator.ReadOnly = true;
+            // 
+            // txtAllCasesLastUpdated_Administrator
+            // 
+            this.txtAllCasesLastUpdated_Administrator.HeaderText = "Last Updated";
+            this.txtAllCasesLastUpdated_Administrator.Name = "txtAllCasesLastUpdated_Administrator";
+            this.txtAllCasesLastUpdated_Administrator.ReadOnly = true;
+            // 
+            // txtAllCasesSLADeadline_Administrator
+            // 
+            this.txtAllCasesSLADeadline_Administrator.HeaderText = "SLA Deadline";
+            this.txtAllCasesSLADeadline_Administrator.Name = "txtAllCasesSLADeadline_Administrator";
+            this.txtAllCasesSLADeadline_Administrator.ReadOnly = true;
             // 
             // lblAllCasesCaseInformation_Administrator
             // 
@@ -292,7 +343,7 @@
             this.txtDelete_Administrator.ReadOnly = true;
             this.txtDelete_Administrator.Size = new System.Drawing.Size(47, 20);
             this.txtDelete_Administrator.TabIndex = 25;
-            this.txtDelete_Administrator.Text = "NO";
+            this.txtDelete_Administrator.Text = "YES";
             this.txtDelete_Administrator.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtUpdate_Administrator
@@ -382,9 +433,9 @@
             this.lblUserRole_Administrator.AutoSize = true;
             this.lblUserRole_Administrator.Location = new System.Drawing.Point(71, 47);
             this.lblUserRole_Administrator.Name = "lblUserRole_Administrator";
-            this.lblUserRole_Administrator.Size = new System.Drawing.Size(56, 13);
+            this.lblUserRole_Administrator.Size = new System.Drawing.Size(42, 13);
             this.lblUserRole_Administrator.TabIndex = 5;
-            this.lblUserRole_Administrator.Text = "ANALYST";
+            this.lblUserRole_Administrator.Text = "ADMIN";
             // 
             // lblUserName_Administrator
             // 
@@ -596,95 +647,6 @@
             this.dgvAllCasesEvidenceandAttachments_Administrator.Size = new System.Drawing.Size(652, 98);
             this.dgvAllCasesEvidenceandAttachments_Administrator.TabIndex = 34;
             // 
-            // lblAllCasesEvidenceandAttachments_Administrator
-            // 
-            this.lblAllCasesEvidenceandAttachments_Administrator.AutoSize = true;
-            this.lblAllCasesEvidenceandAttachments_Administrator.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAllCasesEvidenceandAttachments_Administrator.Location = new System.Drawing.Point(10, 16);
-            this.lblAllCasesEvidenceandAttachments_Administrator.Name = "lblAllCasesEvidenceandAttachments_Administrator";
-            this.lblAllCasesEvidenceandAttachments_Administrator.Size = new System.Drawing.Size(237, 16);
-            this.lblAllCasesEvidenceandAttachments_Administrator.TabIndex = 33;
-            this.lblAllCasesEvidenceandAttachments_Administrator.Text = "EVIDENCE AND ATTACHMENTS";
-            // 
-            // SUBMITEVIDENCEGB_ADMINISTRATOR
-            // 
-            this.SUBMITEVIDENCEGB_ADMINISTRATOR.Controls.Add(this.btnAllCasesSubmitEvidence_Administrator);
-            this.SUBMITEVIDENCEGB_ADMINISTRATOR.Controls.Add(this.dgvAllCasesEvidence_Administrator);
-            this.SUBMITEVIDENCEGB_ADMINISTRATOR.Controls.Add(this.DROPVILESgb_ADMINISTRATOR);
-            this.SUBMITEVIDENCEGB_ADMINISTRATOR.Controls.Add(this.lblAllCasesSubmitEvidence_Administrator);
-            this.SUBMITEVIDENCEGB_ADMINISTRATOR.Location = new System.Drawing.Point(9, 380);
-            this.SUBMITEVIDENCEGB_ADMINISTRATOR.Name = "SUBMITEVIDENCEGB_ADMINISTRATOR";
-            this.SUBMITEVIDENCEGB_ADMINISTRATOR.Size = new System.Drawing.Size(667, 396);
-            this.SUBMITEVIDENCEGB_ADMINISTRATOR.TabIndex = 64;
-            this.SUBMITEVIDENCEGB_ADMINISTRATOR.TabStop = false;
-            // 
-            // btnAllCasesSubmitEvidence_Administrator
-            // 
-            this.btnAllCasesSubmitEvidence_Administrator.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAllCasesSubmitEvidence_Administrator.Location = new System.Drawing.Point(14, 334);
-            this.btnAllCasesSubmitEvidence_Administrator.Name = "btnAllCasesSubmitEvidence_Administrator";
-            this.btnAllCasesSubmitEvidence_Administrator.Size = new System.Drawing.Size(634, 42);
-            this.btnAllCasesSubmitEvidence_Administrator.TabIndex = 67;
-            this.btnAllCasesSubmitEvidence_Administrator.Text = "SUBMIT EVIDENCE";
-            this.btnAllCasesSubmitEvidence_Administrator.UseVisualStyleBackColor = true;
-            // 
-            // dgvAllCasesEvidence_Administrator
-            // 
-            this.dgvAllCasesEvidence_Administrator.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvAllCasesEvidence_Administrator.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.cmbAllCasesEvidenceType_Administrator,
-            this.txtAllCasesDescription_Administrator});
-            this.dgvAllCasesEvidence_Administrator.Location = new System.Drawing.Point(14, 282);
-            this.dgvAllCasesEvidence_Administrator.Name = "dgvAllCasesEvidence_Administrator";
-            this.dgvAllCasesEvidence_Administrator.Size = new System.Drawing.Size(634, 46);
-            this.dgvAllCasesEvidence_Administrator.TabIndex = 32;
-            // 
-            // cmbAllCasesReportercmbAllCasesTypeOfSystem_Administrator
-            // 
-            this.cmbAllCasesReportercmbAllCasesTypeOfSystem_Administrator.HeaderText = "Reporter";
-            this.cmbAllCasesReportercmbAllCasesTypeOfSystem_Administrator.Name = "cmbAllCasesReportercmbAllCasesTypeOfSystem_Administrator";
-            this.cmbAllCasesReportercmbAllCasesTypeOfSystem_Administrator.ReadOnly = true;
-            this.cmbAllCasesReportercmbAllCasesTypeOfSystem_Administrator.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.cmbAllCasesReportercmbAllCasesTypeOfSystem_Administrator.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            // 
-            // cmbAllCasesAssignedTo_Administrator
-            // 
-            this.cmbAllCasesAssignedTo_Administrator.HeaderText = "Assigned To";
-            this.cmbAllCasesAssignedTo_Administrator.Name = "cmbAllCasesAssignedTo_Administrator";
-            this.cmbAllCasesAssignedTo_Administrator.ReadOnly = true;
-            this.cmbAllCasesAssignedTo_Administrator.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.cmbAllCasesAssignedTo_Administrator.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            // 
-            // txtAllCasesReportedAt_Administrator
-            // 
-            this.txtAllCasesReportedAt_Administrator.HeaderText = "Reported At";
-            this.txtAllCasesReportedAt_Administrator.Name = "txtAllCasesReportedAt_Administrator";
-            this.txtAllCasesReportedAt_Administrator.ReadOnly = true;
-            // 
-            // txtAllCasesLastUpdated_Administrator
-            // 
-            this.txtAllCasesLastUpdated_Administrator.HeaderText = "Last Updated";
-            this.txtAllCasesLastUpdated_Administrator.Name = "txtAllCasesLastUpdated_Administrator";
-            this.txtAllCasesLastUpdated_Administrator.ReadOnly = true;
-            // 
-            // txtAllCasesSLADeadline_Administrator
-            // 
-            this.txtAllCasesSLADeadline_Administrator.HeaderText = "SLA Deadline";
-            this.txtAllCasesSLADeadline_Administrator.Name = "txtAllCasesSLADeadline_Administrator";
-            this.txtAllCasesSLADeadline_Administrator.ReadOnly = true;
-            // 
-            // cmbAllCasesEvidenceType_Administrator
-            // 
-            this.cmbAllCasesEvidenceType_Administrator.HeaderText = "Evidence Type";
-            this.cmbAllCasesEvidenceType_Administrator.Name = "cmbAllCasesEvidenceType_Administrator";
-            this.cmbAllCasesEvidenceType_Administrator.Width = 250;
-            // 
-            // txtAllCasesDescription_Administrator
-            // 
-            this.txtAllCasesDescription_Administrator.HeaderText = "Description";
-            this.txtAllCasesDescription_Administrator.Name = "txtAllCasesDescription_Administrator";
-            this.txtAllCasesDescription_Administrator.Width = 340;
-            // 
             // txtAllCasesFileName_Administrator
             // 
             this.txtAllCasesFileName_Administrator.HeaderText = "File Name";
@@ -731,22 +693,60 @@
             this.btnAllCasesActions_Administrator.Name = "btnAllCasesActions_Administrator";
             this.btnAllCasesActions_Administrator.Width = 60;
             // 
-            // cmbAllCasesTypeOfSystem_Administrator
+            // lblAllCasesEvidenceandAttachments_Administrator
             // 
-            this.cmbAllCasesTypeOfSystem_Administrator.FillWeight = 250F;
-            this.cmbAllCasesTypeOfSystem_Administrator.HeaderText = "Type of System";
-            this.cmbAllCasesTypeOfSystem_Administrator.Name = "cmbAllCasesTypeOfSystem_Administrator";
-            this.cmbAllCasesTypeOfSystem_Administrator.ReadOnly = true;
-            this.cmbAllCasesTypeOfSystem_Administrator.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.cmbAllCasesTypeOfSystem_Administrator.Width = 251;
+            this.lblAllCasesEvidenceandAttachments_Administrator.AutoSize = true;
+            this.lblAllCasesEvidenceandAttachments_Administrator.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAllCasesEvidenceandAttachments_Administrator.Location = new System.Drawing.Point(10, 16);
+            this.lblAllCasesEvidenceandAttachments_Administrator.Name = "lblAllCasesEvidenceandAttachments_Administrator";
+            this.lblAllCasesEvidenceandAttachments_Administrator.Size = new System.Drawing.Size(237, 16);
+            this.lblAllCasesEvidenceandAttachments_Administrator.TabIndex = 33;
+            this.lblAllCasesEvidenceandAttachments_Administrator.Text = "EVIDENCE AND ATTACHMENTS";
             // 
-            // cmbAllCasesImpactLevel_Administrator
+            // SUBMITEVIDENCEGB_ADMINISTRATOR
             // 
-            this.cmbAllCasesImpactLevel_Administrator.FillWeight = 250F;
-            this.cmbAllCasesImpactLevel_Administrator.HeaderText = "Impact Level";
-            this.cmbAllCasesImpactLevel_Administrator.Name = "cmbAllCasesImpactLevel_Administrator";
-            this.cmbAllCasesImpactLevel_Administrator.ReadOnly = true;
-            this.cmbAllCasesImpactLevel_Administrator.Width = 250;
+            this.SUBMITEVIDENCEGB_ADMINISTRATOR.Controls.Add(this.btnAllCasesSubmitEvidence_Administrator);
+            this.SUBMITEVIDENCEGB_ADMINISTRATOR.Controls.Add(this.dgvAllCasesEvidence_Administrator);
+            this.SUBMITEVIDENCEGB_ADMINISTRATOR.Controls.Add(this.DROPVILESgb_ADMINISTRATOR);
+            this.SUBMITEVIDENCEGB_ADMINISTRATOR.Controls.Add(this.lblAllCasesSubmitEvidence_Administrator);
+            this.SUBMITEVIDENCEGB_ADMINISTRATOR.Location = new System.Drawing.Point(9, 380);
+            this.SUBMITEVIDENCEGB_ADMINISTRATOR.Name = "SUBMITEVIDENCEGB_ADMINISTRATOR";
+            this.SUBMITEVIDENCEGB_ADMINISTRATOR.Size = new System.Drawing.Size(667, 396);
+            this.SUBMITEVIDENCEGB_ADMINISTRATOR.TabIndex = 64;
+            this.SUBMITEVIDENCEGB_ADMINISTRATOR.TabStop = false;
+            // 
+            // btnAllCasesSubmitEvidence_Administrator
+            // 
+            this.btnAllCasesSubmitEvidence_Administrator.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAllCasesSubmitEvidence_Administrator.Location = new System.Drawing.Point(14, 334);
+            this.btnAllCasesSubmitEvidence_Administrator.Name = "btnAllCasesSubmitEvidence_Administrator";
+            this.btnAllCasesSubmitEvidence_Administrator.Size = new System.Drawing.Size(634, 42);
+            this.btnAllCasesSubmitEvidence_Administrator.TabIndex = 67;
+            this.btnAllCasesSubmitEvidence_Administrator.Text = "SUBMIT EVIDENCE";
+            this.btnAllCasesSubmitEvidence_Administrator.UseVisualStyleBackColor = true;
+            // 
+            // dgvAllCasesEvidence_Administrator
+            // 
+            this.dgvAllCasesEvidence_Administrator.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvAllCasesEvidence_Administrator.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.cmbAllCasesEvidenceType_Administrator,
+            this.txtAllCasesDescription_Administrator});
+            this.dgvAllCasesEvidence_Administrator.Location = new System.Drawing.Point(14, 282);
+            this.dgvAllCasesEvidence_Administrator.Name = "dgvAllCasesEvidence_Administrator";
+            this.dgvAllCasesEvidence_Administrator.Size = new System.Drawing.Size(634, 46);
+            this.dgvAllCasesEvidence_Administrator.TabIndex = 32;
+            // 
+            // cmbAllCasesEvidenceType_Administrator
+            // 
+            this.cmbAllCasesEvidenceType_Administrator.HeaderText = "Evidence Type";
+            this.cmbAllCasesEvidenceType_Administrator.Name = "cmbAllCasesEvidenceType_Administrator";
+            this.cmbAllCasesEvidenceType_Administrator.Width = 250;
+            // 
+            // txtAllCasesDescription_Administrator
+            // 
+            this.txtAllCasesDescription_Administrator.HeaderText = "Description";
+            this.txtAllCasesDescription_Administrator.Name = "txtAllCasesDescription_Administrator";
+            this.txtAllCasesDescription_Administrator.Width = 340;
             // 
             // AllCasesEvidence_Administrator
             // 
@@ -764,7 +764,7 @@
             this.DROPVILESgb_ADMINISTRATOR.PerformLayout();
             this.AFFECTEDSYSgb_ADMINISTRATOR.ResumeLayout(false);
             this.AFFECTEDSYSgb_ADMINISTRATOR.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvAllCasesAffectedSystems_Administrator)).EndInit();
             this.groupBox4_ADMINISTRATOR.ResumeLayout(false);
             this.groupBox4_ADMINISTRATOR.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAllCasesCaseInformation_Administrator)).EndInit();
@@ -843,7 +843,7 @@
         private System.Windows.Forms.GroupBox SUBMITEVIDENCEGB_ADMINISTRATOR;
         private System.Windows.Forms.Button btnAllCasesSubmitEvidence_Administrator;
         private System.Windows.Forms.DataGridView dgvAllCasesEvidence_Administrator;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvAllCasesAffectedSystems_Administrator;
         private System.Windows.Forms.DataGridViewComboBoxColumn cmbAllCasesReportercmbAllCasesTypeOfSystem_Administrator;
         private System.Windows.Forms.DataGridViewComboBoxColumn cmbAllCasesAssignedTo_Administrator;
         private System.Windows.Forms.DataGridViewTextBoxColumn txtAllCasesReportedAt_Administrator;
