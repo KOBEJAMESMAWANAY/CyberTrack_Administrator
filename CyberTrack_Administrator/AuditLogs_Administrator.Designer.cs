@@ -38,6 +38,13 @@
             this.grpAuditLogsGB_Administrator = new System.Windows.Forms.GroupBox();
             this.btnAllCasesExport_Administrator = new System.Windows.Forms.Button();
             this.dgvAuditLogs_Administrator = new System.Windows.Forms.DataGridView();
+            this.txtAuditLogsTimestamp_Administrator = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.txtAuditLogsAction_Administrator = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.txtAuditLogsUser_Administrator = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.txtAuditLogsResourceType_Administrator = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cmbAuditLogsResourceID_Administrator = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.txtAuditLogsIPAddress_Administrator = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.lnkAuditLogsChanges_Administrator = new System.Windows.Forms.DataGridViewLinkColumn();
             this.grpAuditLogsFilters_Administrator = new System.Windows.Forms.GroupBox();
             this.lblAuditLogsResourceType_Administrator = new System.Windows.Forms.Label();
             this.lblAuditLogsSearch_Administrator = new System.Windows.Forms.Label();
@@ -73,13 +80,6 @@
             this.lblUpdate_Administrator = new System.Windows.Forms.Label();
             this.lblCreate_Administrator = new System.Windows.Forms.Label();
             this.lblPermissions_Administrator = new System.Windows.Forms.Label();
-            this.txtAuditLogsTimestamp_Administrator = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.txtAuditLogsAction_Administrator = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.txtAuditLogsUser_Administrator = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.txtAuditLogsResourceType_Administrator = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cmbAuditLogsResourceID_Administrator = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.txtAuditLogsIPAddress_Administrator = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.lnkAuditLogsChanges_Administrator = new System.Windows.Forms.DataGridViewLinkColumn();
             this.grpAuditLogsTotalCases_Administrator.SuspendLayout();
             this.grpAuditLogsGB_Administrator.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAuditLogs_Administrator)).BeginInit();
@@ -198,6 +198,59 @@
             this.dgvAuditLogs_Administrator.Name = "dgvAuditLogs_Administrator";
             this.dgvAuditLogs_Administrator.Size = new System.Drawing.Size(1206, 630);
             this.dgvAuditLogs_Administrator.TabIndex = 72;
+            // 
+            // txtAuditLogsTimestamp_Administrator
+            // 
+            this.txtAuditLogsTimestamp_Administrator.HeaderText = "TIMESTAMP";
+            this.txtAuditLogsTimestamp_Administrator.Name = "txtAuditLogsTimestamp_Administrator";
+            this.txtAuditLogsTimestamp_Administrator.ReadOnly = true;
+            this.txtAuditLogsTimestamp_Administrator.Width = 166;
+            // 
+            // txtAuditLogsAction_Administrator
+            // 
+            this.txtAuditLogsAction_Administrator.HeaderText = "ACTION";
+            this.txtAuditLogsAction_Administrator.Name = "txtAuditLogsAction_Administrator";
+            this.txtAuditLogsAction_Administrator.ReadOnly = true;
+            this.txtAuditLogsAction_Administrator.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.txtAuditLogsAction_Administrator.Width = 166;
+            // 
+            // txtAuditLogsUser_Administrator
+            // 
+            this.txtAuditLogsUser_Administrator.HeaderText = "USER";
+            this.txtAuditLogsUser_Administrator.Name = "txtAuditLogsUser_Administrator";
+            this.txtAuditLogsUser_Administrator.ReadOnly = true;
+            this.txtAuditLogsUser_Administrator.Width = 166;
+            // 
+            // txtAuditLogsResourceType_Administrator
+            // 
+            this.txtAuditLogsResourceType_Administrator.HeaderText = "RESOURCE TYPE";
+            this.txtAuditLogsResourceType_Administrator.Name = "txtAuditLogsResourceType_Administrator";
+            this.txtAuditLogsResourceType_Administrator.ReadOnly = true;
+            this.txtAuditLogsResourceType_Administrator.Width = 167;
+            // 
+            // cmbAuditLogsResourceID_Administrator
+            // 
+            this.cmbAuditLogsResourceID_Administrator.HeaderText = "RESOURCE ID";
+            this.cmbAuditLogsResourceID_Administrator.Name = "cmbAuditLogsResourceID_Administrator";
+            this.cmbAuditLogsResourceID_Administrator.ReadOnly = true;
+            this.cmbAuditLogsResourceID_Administrator.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.cmbAuditLogsResourceID_Administrator.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.cmbAuditLogsResourceID_Administrator.Width = 166;
+            // 
+            // txtAuditLogsIPAddress_Administrator
+            // 
+            this.txtAuditLogsIPAddress_Administrator.HeaderText = "IP ADDRESS";
+            this.txtAuditLogsIPAddress_Administrator.Name = "txtAuditLogsIPAddress_Administrator";
+            this.txtAuditLogsIPAddress_Administrator.ReadOnly = true;
+            this.txtAuditLogsIPAddress_Administrator.Width = 166;
+            // 
+            // lnkAuditLogsChanges_Administrator
+            // 
+            this.lnkAuditLogsChanges_Administrator.HeaderText = "CHANGES";
+            this.lnkAuditLogsChanges_Administrator.Name = "lnkAuditLogsChanges_Administrator";
+            this.lnkAuditLogsChanges_Administrator.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.lnkAuditLogsChanges_Administrator.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.lnkAuditLogsChanges_Administrator.Width = 166;
             // 
             // grpAuditLogsFilters_Administrator
             // 
@@ -572,59 +625,6 @@
             this.lblPermissions_Administrator.Size = new System.Drawing.Size(92, 16);
             this.lblPermissions_Administrator.TabIndex = 4;
             this.lblPermissions_Administrator.Text = "Permissions";
-            // 
-            // txtAuditLogsTimestamp_Administrator
-            // 
-            this.txtAuditLogsTimestamp_Administrator.HeaderText = "TIMESTAMP";
-            this.txtAuditLogsTimestamp_Administrator.Name = "txtAuditLogsTimestamp_Administrator";
-            this.txtAuditLogsTimestamp_Administrator.ReadOnly = true;
-            this.txtAuditLogsTimestamp_Administrator.Width = 166;
-            // 
-            // txtAuditLogsAction_Administrator
-            // 
-            this.txtAuditLogsAction_Administrator.HeaderText = "ACTION";
-            this.txtAuditLogsAction_Administrator.Name = "txtAuditLogsAction_Administrator";
-            this.txtAuditLogsAction_Administrator.ReadOnly = true;
-            this.txtAuditLogsAction_Administrator.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.txtAuditLogsAction_Administrator.Width = 166;
-            // 
-            // txtAuditLogsUser_Administrator
-            // 
-            this.txtAuditLogsUser_Administrator.HeaderText = "USER";
-            this.txtAuditLogsUser_Administrator.Name = "txtAuditLogsUser_Administrator";
-            this.txtAuditLogsUser_Administrator.ReadOnly = true;
-            this.txtAuditLogsUser_Administrator.Width = 166;
-            // 
-            // txtAuditLogsResourceType_Administrator
-            // 
-            this.txtAuditLogsResourceType_Administrator.HeaderText = "RESOURCE TYPE";
-            this.txtAuditLogsResourceType_Administrator.Name = "txtAuditLogsResourceType_Administrator";
-            this.txtAuditLogsResourceType_Administrator.ReadOnly = true;
-            this.txtAuditLogsResourceType_Administrator.Width = 167;
-            // 
-            // cmbAuditLogsResourceID_Administrator
-            // 
-            this.cmbAuditLogsResourceID_Administrator.HeaderText = "RESOURCE ID";
-            this.cmbAuditLogsResourceID_Administrator.Name = "cmbAuditLogsResourceID_Administrator";
-            this.cmbAuditLogsResourceID_Administrator.ReadOnly = true;
-            this.cmbAuditLogsResourceID_Administrator.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.cmbAuditLogsResourceID_Administrator.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.cmbAuditLogsResourceID_Administrator.Width = 166;
-            // 
-            // txtAuditLogsIPAddress_Administrator
-            // 
-            this.txtAuditLogsIPAddress_Administrator.HeaderText = "IP ADDRESS";
-            this.txtAuditLogsIPAddress_Administrator.Name = "txtAuditLogsIPAddress_Administrator";
-            this.txtAuditLogsIPAddress_Administrator.ReadOnly = true;
-            this.txtAuditLogsIPAddress_Administrator.Width = 166;
-            // 
-            // lnkAuditLogsChanges_Administrator
-            // 
-            this.lnkAuditLogsChanges_Administrator.HeaderText = "CHANGES";
-            this.lnkAuditLogsChanges_Administrator.Name = "lnkAuditLogsChanges_Administrator";
-            this.lnkAuditLogsChanges_Administrator.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.lnkAuditLogsChanges_Administrator.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.lnkAuditLogsChanges_Administrator.Width = 166;
             // 
             // AuditLogs_Administrator
             // 
