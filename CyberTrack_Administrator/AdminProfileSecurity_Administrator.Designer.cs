@@ -37,15 +37,12 @@
             this.PINFORMATIONgb_ADMINISTRATOR = new System.Windows.Forms.GroupBox();
             this.APIgb_ADMINISTRATOR = new System.Windows.Forms.GroupBox();
             this.dgvProfileAPIAccessTokens_Administrator = new System.Windows.Forms.DataGridView();
-            this.btnProfileGenerateAPI_Analyst = new System.Windows.Forms.DataGridViewButtonColumn();
             this.lblProfileAPIAccessTokens_Administrator = new System.Windows.Forms.Label();
             this.ACTIVESESHgb_ADMINISTRATOR = new System.Windows.Forms.GroupBox();
             this.dgvProfileActiveSessions_Administrator = new System.Windows.Forms.DataGridView();
-            this.txtProfileCurrentSession_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.lblProfileActiveSessions_Administrator = new System.Windows.Forms.Label();
             this.TWOFACTORAUTHE_ADMINISTRATOR = new System.Windows.Forms.GroupBox();
             this.dgvProfileTwoFactorEnabled_Administrator = new System.Windows.Forms.DataGridView();
-            this.chkProfileEnabled1_Analyst = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.lblProfileAddExtraLayerofSecurity_Administrator = new System.Windows.Forms.Label();
             this.lblProfileTwoFactorAuthentication__Administrator = new System.Windows.Forms.Label();
             this.PassREQLlbl_ANALYST = new System.Windows.Forms.Label();
@@ -74,6 +71,9 @@
             this.picUserPhoto_Administrator = new System.Windows.Forms.PictureBox();
             this.lblUserRole_Administrator = new System.Windows.Forms.Label();
             this.lblUserName_Administrator = new System.Windows.Forms.Label();
+            this.chkProfileEnabled1_Administrator = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.txtProfileCurrentSession_Administrator = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnProfileGenerateAPI_Administrator = new System.Windows.Forms.DataGridViewButtonColumn();
             ((System.ComponentModel.ISupportInitialize)(this.picProfileSecuritySettingsPhoto_Administrator)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picProfileUserPhoto_Administrator)).BeginInit();
             this.PINFORMATIONgb_ADMINISTRATOR.SuspendLayout();
@@ -172,18 +172,11 @@
             // 
             this.dgvProfileAPIAccessTokens_Administrator.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvProfileAPIAccessTokens_Administrator.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.btnProfileGenerateAPI_Analyst});
+            this.btnProfileGenerateAPI_Administrator});
             this.dgvProfileAPIAccessTokens_Administrator.Location = new System.Drawing.Point(19, 73);
             this.dgvProfileAPIAccessTokens_Administrator.Name = "dgvProfileAPIAccessTokens_Administrator";
             this.dgvProfileAPIAccessTokens_Administrator.Size = new System.Drawing.Size(759, 71);
             this.dgvProfileAPIAccessTokens_Administrator.TabIndex = 51;
-            // 
-            // btnProfileGenerateAPI_Analyst
-            // 
-            this.btnProfileGenerateAPI_Analyst.HeaderText = "Generate Tokens";
-            this.btnProfileGenerateAPI_Analyst.Name = "btnProfileGenerateAPI_Analyst";
-            this.btnProfileGenerateAPI_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.btnProfileGenerateAPI_Analyst.Width = 720;
             // 
             // lblProfileAPIAccessTokens_Administrator
             // 
@@ -209,19 +202,11 @@
             // 
             this.dgvProfileActiveSessions_Administrator.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvProfileActiveSessions_Administrator.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.txtProfileCurrentSession_Analyst});
+            this.txtProfileCurrentSession_Administrator});
             this.dgvProfileActiveSessions_Administrator.Location = new System.Drawing.Point(19, 73);
             this.dgvProfileActiveSessions_Administrator.Name = "dgvProfileActiveSessions_Administrator";
             this.dgvProfileActiveSessions_Administrator.Size = new System.Drawing.Size(759, 71);
             this.dgvProfileActiveSessions_Administrator.TabIndex = 51;
-            // 
-            // txtProfileCurrentSession_Analyst
-            // 
-            this.txtProfileCurrentSession_Analyst.HeaderText = "Current Session";
-            this.txtProfileCurrentSession_Analyst.Name = "txtProfileCurrentSession_Analyst";
-            this.txtProfileCurrentSession_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.txtProfileCurrentSession_Analyst.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.txtProfileCurrentSession_Analyst.Width = 720;
             // 
             // lblProfileActiveSessions_Administrator
             // 
@@ -248,17 +233,11 @@
             // 
             this.dgvProfileTwoFactorEnabled_Administrator.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvProfileTwoFactorEnabled_Administrator.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.chkProfileEnabled1_Analyst});
+            this.chkProfileEnabled1_Administrator});
             this.dgvProfileTwoFactorEnabled_Administrator.Location = new System.Drawing.Point(19, 73);
             this.dgvProfileTwoFactorEnabled_Administrator.Name = "dgvProfileTwoFactorEnabled_Administrator";
             this.dgvProfileTwoFactorEnabled_Administrator.Size = new System.Drawing.Size(759, 71);
             this.dgvProfileTwoFactorEnabled_Administrator.TabIndex = 51;
-            // 
-            // chkProfileEnabled1_Analyst
-            // 
-            this.chkProfileEnabled1_Analyst.HeaderText = "Enabled";
-            this.chkProfileEnabled1_Analyst.Name = "chkProfileEnabled1_Analyst";
-            this.chkProfileEnabled1_Analyst.Width = 720;
             // 
             // lblProfileAddExtraLayerofSecurity_Administrator
             // 
@@ -542,6 +521,27 @@
             this.lblUserName_Administrator.TabIndex = 5;
             this.lblUserName_Administrator.Text = "Skibidi Toilet";
             // 
+            // chkProfileEnabled1_Administrator
+            // 
+            this.chkProfileEnabled1_Administrator.HeaderText = "Enabled";
+            this.chkProfileEnabled1_Administrator.Name = "chkProfileEnabled1_Administrator";
+            this.chkProfileEnabled1_Administrator.Width = 720;
+            // 
+            // txtProfileCurrentSession_Administrator
+            // 
+            this.txtProfileCurrentSession_Administrator.HeaderText = "Current Session";
+            this.txtProfileCurrentSession_Administrator.Name = "txtProfileCurrentSession_Administrator";
+            this.txtProfileCurrentSession_Administrator.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.txtProfileCurrentSession_Administrator.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.txtProfileCurrentSession_Administrator.Width = 720;
+            // 
+            // btnProfileGenerateAPI_Administrator
+            // 
+            this.btnProfileGenerateAPI_Administrator.HeaderText = "Generate Tokens";
+            this.btnProfileGenerateAPI_Administrator.Name = "btnProfileGenerateAPI_Administrator";
+            this.btnProfileGenerateAPI_Administrator.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.btnProfileGenerateAPI_Administrator.Width = 720;
+            // 
             // AdminProfileSecurity_Administrator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -595,15 +595,12 @@
         private System.Windows.Forms.GroupBox PINFORMATIONgb_ADMINISTRATOR;
         private System.Windows.Forms.GroupBox APIgb_ADMINISTRATOR;
         private System.Windows.Forms.DataGridView dgvProfileAPIAccessTokens_Administrator;
-        private System.Windows.Forms.DataGridViewButtonColumn btnProfileGenerateAPI_Analyst;
         private System.Windows.Forms.Label lblProfileAPIAccessTokens_Administrator;
         private System.Windows.Forms.GroupBox ACTIVESESHgb_ADMINISTRATOR;
         private System.Windows.Forms.DataGridView dgvProfileActiveSessions_Administrator;
-        private System.Windows.Forms.DataGridViewTextBoxColumn txtProfileCurrentSession_Analyst;
         private System.Windows.Forms.Label lblProfileActiveSessions_Administrator;
         private System.Windows.Forms.GroupBox TWOFACTORAUTHE_ADMINISTRATOR;
         private System.Windows.Forms.DataGridView dgvProfileTwoFactorEnabled_Administrator;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn chkProfileEnabled1_Analyst;
         private System.Windows.Forms.Label lblProfileAddExtraLayerofSecurity_Administrator;
         private System.Windows.Forms.Label lblProfileTwoFactorAuthentication__Administrator;
         private System.Windows.Forms.Label PassREQLlbl_ANALYST;
@@ -632,5 +629,8 @@
         private System.Windows.Forms.PictureBox picUserPhoto_Administrator;
         private System.Windows.Forms.Label lblUserRole_Administrator;
         private System.Windows.Forms.Label lblUserName_Administrator;
+        private System.Windows.Forms.DataGridViewButtonColumn btnProfileGenerateAPI_Administrator;
+        private System.Windows.Forms.DataGridViewTextBoxColumn txtProfileCurrentSession_Administrator;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn chkProfileEnabled1_Administrator;
     }
 }

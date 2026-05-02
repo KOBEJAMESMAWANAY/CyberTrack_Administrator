@@ -30,12 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdminProfileInformation_Administrator));
             this.lblProfileCases_Administrator = new System.Windows.Forms.Label();
-            this.txtProfileUserID_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.txtProfileFullName_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.txtProfileEmail_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.txtProfileRole2_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.txtProfileDepartment_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.txtProfileStatus_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.lblProfilePersonalInformation_Administrator = new System.Windows.Forms.Label();
             this.picProfilePersonalInfoPhoto_Administrator = new System.Windows.Forms.PictureBox();
             this.dgvProfilePersonalInformation_Administrator = new System.Windows.Forms.DataGridView();
@@ -62,29 +56,29 @@
             this.lblProfileAssignedPermissions_Administrator = new System.Windows.Forms.Label();
             this.PERMISSIONSgb_ADMINISTRATOR = new System.Windows.Forms.GroupBox();
             this.dgvProfileAuditLogs_Administrator = new System.Windows.Forms.DataGridView();
-            this.dgvProfileUsers_Administrator = new System.Windows.Forms.DataGridView();
-            this.lblProfileAuditLogs_Administrator = new System.Windows.Forms.Label();
-            this.lblProfileUsers_Administrator = new System.Windows.Forms.Label();
-            this.lblProfileEvidence_Administrator = new System.Windows.Forms.Label();
-            this.dgvProfileEvidence_Administrator = new System.Windows.Forms.DataGridView();
-            this.dgvProfileCases_Administrator = new System.Windows.Forms.DataGridView();
-            this.USERPROFILElbl_ADMINISTRATOR = new System.Windows.Forms.Label();
-            this.chkProfileCreate_Administrator = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.chkProfileRead_Administrator = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.chkProfileUpdate_Administrator = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.chkProfileDelete_Administrator = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.chkProfileCreate2_Administrator = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.chkProfileRead2_Administrator = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.chkProfileUpdate2_Administrator = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.chkProfileDelete2_Administrator = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.chkProfileRead4_Administrator = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.chkProfileUpdate4_Administrator = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.chkProfileCreate4_Administrator = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.chkProfileDelete4_Administrator = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.dgvProfileUsers_Administrator = new System.Windows.Forms.DataGridView();
             this.chkProfileCreate3_Administrator = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.chkProfileRead3_Administrator = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.chkProfileUpdate3_Administrator = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.chkProfileDelete3_Administrator = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.lblProfileAuditLogs_Administrator = new System.Windows.Forms.Label();
+            this.lblProfileUsers_Administrator = new System.Windows.Forms.Label();
+            this.lblProfileEvidence_Administrator = new System.Windows.Forms.Label();
+            this.dgvProfileEvidence_Administrator = new System.Windows.Forms.DataGridView();
+            this.chkProfileCreate2_Administrator = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.chkProfileRead2_Administrator = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.chkProfileUpdate2_Administrator = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.chkProfileDelete2_Administrator = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.dgvProfileCases_Administrator = new System.Windows.Forms.DataGridView();
+            this.chkProfileCreate_Administrator = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.chkProfileRead_Administrator = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.chkProfileUpdate_Administrator = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.chkProfileDelete_Administrator = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.USERPROFILElbl_ADMINISTRATOR = new System.Windows.Forms.Label();
             this.grbLogo_Administrator = new System.Windows.Forms.GroupBox();
             this.picCyberTrackLogo_Administrator = new System.Windows.Forms.PictureBox();
             this.lblIncidentManagementSystem_Administrator = new System.Windows.Forms.Label();
@@ -101,6 +95,12 @@
             this.picUserPhoto_Administrator = new System.Windows.Forms.PictureBox();
             this.lblUserRole_Administrator = new System.Windows.Forms.Label();
             this.lblUserName_Administrator = new System.Windows.Forms.Label();
+            this.txtProfileUserID_Administrator = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.txtProfileFullName_Administrator = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.txtProfileEmail_Administrator = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.txtProfileRole2_Administrator = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.txtProfileDepartment_Administrator = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.txtProfileStatus_Administrator = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.picProfilePersonalInfoPhoto_Administrator)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvProfilePersonalInformation_Administrator)).BeginInit();
             this.USERPROFILEgbV_Administrator.SuspendLayout();
@@ -131,39 +131,6 @@
             this.lblProfileCases_Administrator.TabIndex = 54;
             this.lblProfileCases_Administrator.Text = "CASES";
             // 
-            // txtProfileUserID_Analyst
-            // 
-            this.txtProfileUserID_Analyst.HeaderText = "User ID";
-            this.txtProfileUserID_Analyst.Name = "txtProfileUserID_Analyst";
-            // 
-            // txtProfileFullName_Analyst
-            // 
-            this.txtProfileFullName_Analyst.HeaderText = "Full Name";
-            this.txtProfileFullName_Analyst.Name = "txtProfileFullName_Analyst";
-            this.txtProfileFullName_Analyst.Width = 150;
-            // 
-            // txtProfileEmail_Analyst
-            // 
-            this.txtProfileEmail_Analyst.HeaderText = "Email";
-            this.txtProfileEmail_Analyst.Name = "txtProfileEmail_Analyst";
-            this.txtProfileEmail_Analyst.Width = 150;
-            // 
-            // txtProfileRole2_Analyst
-            // 
-            this.txtProfileRole2_Analyst.HeaderText = "Role";
-            this.txtProfileRole2_Analyst.Name = "txtProfileRole2_Analyst";
-            // 
-            // txtProfileDepartment_Analyst
-            // 
-            this.txtProfileDepartment_Analyst.HeaderText = "Department";
-            this.txtProfileDepartment_Analyst.Name = "txtProfileDepartment_Analyst";
-            this.txtProfileDepartment_Analyst.Width = 150;
-            // 
-            // txtProfileStatus_Analyst
-            // 
-            this.txtProfileStatus_Analyst.HeaderText = "Status";
-            this.txtProfileStatus_Analyst.Name = "txtProfileStatus_Analyst";
-            // 
             // lblProfilePersonalInformation_Administrator
             // 
             this.lblProfilePersonalInformation_Administrator.AutoSize = true;
@@ -190,12 +157,12 @@
             // 
             this.dgvProfilePersonalInformation_Administrator.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvProfilePersonalInformation_Administrator.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.txtProfileUserID_Analyst,
-            this.txtProfileFullName_Analyst,
-            this.txtProfileEmail_Analyst,
-            this.txtProfileRole2_Analyst,
-            this.txtProfileDepartment_Analyst,
-            this.txtProfileStatus_Analyst});
+            this.txtProfileUserID_Administrator,
+            this.txtProfileFullName_Administrator,
+            this.txtProfileEmail_Administrator,
+            this.txtProfileRole2_Administrator,
+            this.txtProfileDepartment_Administrator,
+            this.txtProfileStatus_Administrator});
             this.dgvProfilePersonalInformation_Administrator.Location = new System.Drawing.Point(24, 94);
             this.dgvProfilePersonalInformation_Administrator.Name = "dgvProfilePersonalInformation_Administrator";
             this.dgvProfilePersonalInformation_Administrator.Size = new System.Drawing.Size(784, 62);
@@ -434,6 +401,30 @@
             this.dgvProfileAuditLogs_Administrator.Size = new System.Drawing.Size(750, 59);
             this.dgvProfileAuditLogs_Administrator.TabIndex = 61;
             // 
+            // chkProfileRead4_Administrator
+            // 
+            this.chkProfileRead4_Administrator.HeaderText = "Read";
+            this.chkProfileRead4_Administrator.Name = "chkProfileRead4_Administrator";
+            this.chkProfileRead4_Administrator.Width = 177;
+            // 
+            // chkProfileUpdate4_Administrator
+            // 
+            this.chkProfileUpdate4_Administrator.HeaderText = "Update";
+            this.chkProfileUpdate4_Administrator.Name = "chkProfileUpdate4_Administrator";
+            this.chkProfileUpdate4_Administrator.Width = 177;
+            // 
+            // chkProfileCreate4_Administrator
+            // 
+            this.chkProfileCreate4_Administrator.HeaderText = "Create";
+            this.chkProfileCreate4_Administrator.Name = "chkProfileCreate4_Administrator";
+            this.chkProfileCreate4_Administrator.Width = 176;
+            // 
+            // chkProfileDelete4_Administrator
+            // 
+            this.chkProfileDelete4_Administrator.HeaderText = "Delete";
+            this.chkProfileDelete4_Administrator.Name = "chkProfileDelete4_Administrator";
+            this.chkProfileDelete4_Administrator.Width = 177;
+            // 
             // dgvProfileUsers_Administrator
             // 
             this.dgvProfileUsers_Administrator.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -446,6 +437,30 @@
             this.dgvProfileUsers_Administrator.Name = "dgvProfileUsers_Administrator";
             this.dgvProfileUsers_Administrator.Size = new System.Drawing.Size(750, 59);
             this.dgvProfileUsers_Administrator.TabIndex = 60;
+            // 
+            // chkProfileCreate3_Administrator
+            // 
+            this.chkProfileCreate3_Administrator.HeaderText = "Create";
+            this.chkProfileCreate3_Administrator.Name = "chkProfileCreate3_Administrator";
+            this.chkProfileCreate3_Administrator.Width = 177;
+            // 
+            // chkProfileRead3_Administrator
+            // 
+            this.chkProfileRead3_Administrator.HeaderText = "Read";
+            this.chkProfileRead3_Administrator.Name = "chkProfileRead3_Administrator";
+            this.chkProfileRead3_Administrator.Width = 177;
+            // 
+            // chkProfileUpdate3_Administrator
+            // 
+            this.chkProfileUpdate3_Administrator.HeaderText = "Update";
+            this.chkProfileUpdate3_Administrator.Name = "chkProfileUpdate3_Administrator";
+            this.chkProfileUpdate3_Administrator.Width = 176;
+            // 
+            // chkProfileDelete3_Administrator
+            // 
+            this.chkProfileDelete3_Administrator.HeaderText = "Delete";
+            this.chkProfileDelete3_Administrator.Name = "chkProfileDelete3_Administrator";
+            this.chkProfileDelete3_Administrator.Width = 177;
             // 
             // lblProfileAuditLogs_Administrator
             // 
@@ -490,6 +505,30 @@
             this.dgvProfileEvidence_Administrator.Size = new System.Drawing.Size(750, 59);
             this.dgvProfileEvidence_Administrator.TabIndex = 56;
             // 
+            // chkProfileCreate2_Administrator
+            // 
+            this.chkProfileCreate2_Administrator.HeaderText = "Create";
+            this.chkProfileCreate2_Administrator.Name = "chkProfileCreate2_Administrator";
+            this.chkProfileCreate2_Administrator.Width = 177;
+            // 
+            // chkProfileRead2_Administrator
+            // 
+            this.chkProfileRead2_Administrator.HeaderText = "Read";
+            this.chkProfileRead2_Administrator.Name = "chkProfileRead2_Administrator";
+            this.chkProfileRead2_Administrator.Width = 177;
+            // 
+            // chkProfileUpdate2_Administrator
+            // 
+            this.chkProfileUpdate2_Administrator.HeaderText = "Update";
+            this.chkProfileUpdate2_Administrator.Name = "chkProfileUpdate2_Administrator";
+            this.chkProfileUpdate2_Administrator.Width = 176;
+            // 
+            // chkProfileDelete2_Administrator
+            // 
+            this.chkProfileDelete2_Administrator.HeaderText = "Delete";
+            this.chkProfileDelete2_Administrator.Name = "chkProfileDelete2_Administrator";
+            this.chkProfileDelete2_Administrator.Width = 177;
+            // 
             // dgvProfileCases_Administrator
             // 
             this.dgvProfileCases_Administrator.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -502,16 +541,6 @@
             this.dgvProfileCases_Administrator.Name = "dgvProfileCases_Administrator";
             this.dgvProfileCases_Administrator.Size = new System.Drawing.Size(750, 59);
             this.dgvProfileCases_Administrator.TabIndex = 55;
-            // 
-            // USERPROFILElbl_ADMINISTRATOR
-            // 
-            this.USERPROFILElbl_ADMINISTRATOR.AutoSize = true;
-            this.USERPROFILElbl_ADMINISTRATOR.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.USERPROFILElbl_ADMINISTRATOR.Location = new System.Drawing.Point(9, 109);
-            this.USERPROFILElbl_ADMINISTRATOR.Name = "USERPROFILElbl_ADMINISTRATOR";
-            this.USERPROFILElbl_ADMINISTRATOR.Size = new System.Drawing.Size(129, 18);
-            this.USERPROFILElbl_ADMINISTRATOR.TabIndex = 88;
-            this.USERPROFILElbl_ADMINISTRATOR.Text = "USER PROFILE";
             // 
             // chkProfileCreate_Administrator
             // 
@@ -539,77 +568,15 @@
             this.chkProfileDelete_Administrator.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
             this.chkProfileDelete_Administrator.Width = 177;
             // 
-            // chkProfileCreate2_Administrator
+            // USERPROFILElbl_ADMINISTRATOR
             // 
-            this.chkProfileCreate2_Administrator.HeaderText = "Create";
-            this.chkProfileCreate2_Administrator.Name = "chkProfileCreate2_Administrator";
-            this.chkProfileCreate2_Administrator.Width = 177;
-            // 
-            // chkProfileRead2_Administrator
-            // 
-            this.chkProfileRead2_Administrator.HeaderText = "Read";
-            this.chkProfileRead2_Administrator.Name = "chkProfileRead2_Administrator";
-            this.chkProfileRead2_Administrator.Width = 177;
-            // 
-            // chkProfileUpdate2_Administrator
-            // 
-            this.chkProfileUpdate2_Administrator.HeaderText = "Update";
-            this.chkProfileUpdate2_Administrator.Name = "chkProfileUpdate2_Administrator";
-            this.chkProfileUpdate2_Administrator.Width = 176;
-            // 
-            // chkProfileDelete2_Administrator
-            // 
-            this.chkProfileDelete2_Administrator.HeaderText = "Delete";
-            this.chkProfileDelete2_Administrator.Name = "chkProfileDelete2_Administrator";
-            this.chkProfileDelete2_Administrator.Width = 177;
-            // 
-            // chkProfileRead4_Administrator
-            // 
-            this.chkProfileRead4_Administrator.HeaderText = "Read";
-            this.chkProfileRead4_Administrator.Name = "chkProfileRead4_Administrator";
-            this.chkProfileRead4_Administrator.Width = 177;
-            // 
-            // chkProfileUpdate4_Administrator
-            // 
-            this.chkProfileUpdate4_Administrator.HeaderText = "Update";
-            this.chkProfileUpdate4_Administrator.Name = "chkProfileUpdate4_Administrator";
-            this.chkProfileUpdate4_Administrator.Width = 177;
-            // 
-            // chkProfileCreate4_Administrator
-            // 
-            this.chkProfileCreate4_Administrator.HeaderText = "Create";
-            this.chkProfileCreate4_Administrator.Name = "chkProfileCreate4_Administrator";
-            this.chkProfileCreate4_Administrator.Width = 176;
-            // 
-            // chkProfileDelete4_Administrator
-            // 
-            this.chkProfileDelete4_Administrator.HeaderText = "Delete";
-            this.chkProfileDelete4_Administrator.Name = "chkProfileDelete4_Administrator";
-            this.chkProfileDelete4_Administrator.Width = 177;
-            // 
-            // chkProfileCreate3_Administrator
-            // 
-            this.chkProfileCreate3_Administrator.HeaderText = "Create";
-            this.chkProfileCreate3_Administrator.Name = "chkProfileCreate3_Administrator";
-            this.chkProfileCreate3_Administrator.Width = 177;
-            // 
-            // chkProfileRead3_Administrator
-            // 
-            this.chkProfileRead3_Administrator.HeaderText = "Read";
-            this.chkProfileRead3_Administrator.Name = "chkProfileRead3_Administrator";
-            this.chkProfileRead3_Administrator.Width = 177;
-            // 
-            // chkProfileUpdate3_Administrator
-            // 
-            this.chkProfileUpdate3_Administrator.HeaderText = "Update";
-            this.chkProfileUpdate3_Administrator.Name = "chkProfileUpdate3_Administrator";
-            this.chkProfileUpdate3_Administrator.Width = 176;
-            // 
-            // chkProfileDelete3_Administrator
-            // 
-            this.chkProfileDelete3_Administrator.HeaderText = "Delete";
-            this.chkProfileDelete3_Administrator.Name = "chkProfileDelete3_Administrator";
-            this.chkProfileDelete3_Administrator.Width = 177;
+            this.USERPROFILElbl_ADMINISTRATOR.AutoSize = true;
+            this.USERPROFILElbl_ADMINISTRATOR.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.USERPROFILElbl_ADMINISTRATOR.Location = new System.Drawing.Point(9, 109);
+            this.USERPROFILElbl_ADMINISTRATOR.Name = "USERPROFILElbl_ADMINISTRATOR";
+            this.USERPROFILElbl_ADMINISTRATOR.Size = new System.Drawing.Size(129, 18);
+            this.USERPROFILElbl_ADMINISTRATOR.TabIndex = 88;
+            this.USERPROFILElbl_ADMINISTRATOR.Text = "USER PROFILE";
             // 
             // grbLogo_Administrator
             // 
@@ -778,6 +745,39 @@
             this.lblUserName_Administrator.TabIndex = 5;
             this.lblUserName_Administrator.Text = "Skibidi Toilet";
             // 
+            // txtProfileUserID_Administrator
+            // 
+            this.txtProfileUserID_Administrator.HeaderText = "User ID";
+            this.txtProfileUserID_Administrator.Name = "txtProfileUserID_Administrator";
+            // 
+            // txtProfileFullName_Administrator
+            // 
+            this.txtProfileFullName_Administrator.HeaderText = "Full Name";
+            this.txtProfileFullName_Administrator.Name = "txtProfileFullName_Administrator";
+            this.txtProfileFullName_Administrator.Width = 150;
+            // 
+            // txtProfileEmail_Administrator
+            // 
+            this.txtProfileEmail_Administrator.HeaderText = "Email";
+            this.txtProfileEmail_Administrator.Name = "txtProfileEmail_Administrator";
+            this.txtProfileEmail_Administrator.Width = 150;
+            // 
+            // txtProfileRole2_Administrator
+            // 
+            this.txtProfileRole2_Administrator.HeaderText = "Role";
+            this.txtProfileRole2_Administrator.Name = "txtProfileRole2_Administrator";
+            // 
+            // txtProfileDepartment_Administrator
+            // 
+            this.txtProfileDepartment_Administrator.HeaderText = "Department";
+            this.txtProfileDepartment_Administrator.Name = "txtProfileDepartment_Administrator";
+            this.txtProfileDepartment_Administrator.Width = 150;
+            // 
+            // txtProfileStatus_Administrator
+            // 
+            this.txtProfileStatus_Administrator.HeaderText = "Status";
+            this.txtProfileStatus_Administrator.Name = "txtProfileStatus_Administrator";
+            // 
             // AdminProfileInformation_Administrator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -828,12 +828,6 @@
         #endregion
 
         private System.Windows.Forms.Label lblProfileCases_Administrator;
-        private System.Windows.Forms.DataGridViewTextBoxColumn txtProfileUserID_Analyst;
-        private System.Windows.Forms.DataGridViewTextBoxColumn txtProfileFullName_Analyst;
-        private System.Windows.Forms.DataGridViewTextBoxColumn txtProfileEmail_Analyst;
-        private System.Windows.Forms.DataGridViewTextBoxColumn txtProfileRole2_Analyst;
-        private System.Windows.Forms.DataGridViewTextBoxColumn txtProfileDepartment_Analyst;
-        private System.Windows.Forms.DataGridViewTextBoxColumn txtProfileStatus_Analyst;
         private System.Windows.Forms.Label lblProfilePersonalInformation_Administrator;
         private System.Windows.Forms.PictureBox picProfilePersonalInfoPhoto_Administrator;
         private System.Windows.Forms.DataGridView dgvProfilePersonalInformation_Administrator;
@@ -899,5 +893,11 @@
         private System.Windows.Forms.PictureBox picUserPhoto_Administrator;
         private System.Windows.Forms.Label lblUserRole_Administrator;
         private System.Windows.Forms.Label lblUserName_Administrator;
+        private System.Windows.Forms.DataGridViewTextBoxColumn txtProfileUserID_Administrator;
+        private System.Windows.Forms.DataGridViewTextBoxColumn txtProfileFullName_Administrator;
+        private System.Windows.Forms.DataGridViewTextBoxColumn txtProfileEmail_Administrator;
+        private System.Windows.Forms.DataGridViewTextBoxColumn txtProfileRole2_Administrator;
+        private System.Windows.Forms.DataGridViewTextBoxColumn txtProfileDepartment_Administrator;
+        private System.Windows.Forms.DataGridViewTextBoxColumn txtProfileStatus_Administrator;
     }
 }
