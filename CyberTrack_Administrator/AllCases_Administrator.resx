@@ -121,10 +121,10 @@
     <value>True</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="pictureBox3.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="picAllCasesFilters_Administrator.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DgAACw4BQL7hQQAAAA50RVh0U29mdHdhcmUARmlnbWGesZZjAAABTElEQVRYR+1X223DMAzMj2GK/PEI
+        DQAACw0B7QfALAAAAA50RVh0U29mdHdhcmUARmlnbWGesZZjAAABTElEQVRYR+1X223DMAzMj2GK/PEI
         HaEjdIRu0IyQDdoRukGzQUfJCBnBI6S4QBKoQ4DAgiT0wwfwSyfeiXrQPhx2OIjIm5kdewY0WBfCL6p6
         VdXbiAghXJdlWbIBM/tm0oD4ygZU9ZwGYIbL1iog6gz8+Apg8D6A8mBL8mAj8DaLyLEg+Cq0NsHiqDJz
         7ggh/LoSXYqDUgnk8OLQYE5GJF+8CeZsBed7uiguV3FYNgJzq7aVTYjIJ3OeAXOqxBOiibXGhBdHjs3i

@@ -28,28 +28,28 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.menuStrip1_Administrator = new System.Windows.Forms.MenuStrip();
             this.dashboardToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.submitAReportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.allCasesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.auditLogsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.adminPanelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuStrip1.SuspendLayout();
+            this.menuStrip1_Administrator.SuspendLayout();
             this.SuspendLayout();
             // 
-            // menuStrip1
+            // menuStrip1_Administrator
             // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.menuStrip1_Administrator.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.dashboardToolStripMenuItem,
             this.submitAReportToolStripMenuItem,
             this.allCasesToolStripMenuItem,
             this.auditLogsToolStripMenuItem,
             this.adminPanelToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1584, 38);
-            this.menuStrip1.TabIndex = 1;
-            this.menuStrip1.Text = "menuStrip1";
+            this.menuStrip1_Administrator.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1_Administrator.Name = "menuStrip1_Administrator";
+            this.menuStrip1_Administrator.Size = new System.Drawing.Size(1584, 38);
+            this.menuStrip1_Administrator.TabIndex = 1;
+            this.menuStrip1_Administrator.Text = "menuStrip1";
             // 
             // dashboardToolStripMenuItem
             // 
@@ -96,14 +96,14 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1584, 961);
-            this.Controls.Add(this.menuStrip1);
+            this.Controls.Add(this.menuStrip1_Administrator);
             this.IsMdiContainer = true;
-            this.MainMenuStrip = this.menuStrip1;
+            this.MainMenuStrip = this.menuStrip1_Administrator;
             this.Name = "MainForm_Administrator";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MainForm_Administrator";
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
+            this.menuStrip1_Administrator.ResumeLayout(false);
+            this.menuStrip1_Administrator.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -111,7 +111,7 @@
 
         #endregion
 
-        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.MenuStrip menuStrip1_Administrator;
         private System.Windows.Forms.ToolStripMenuItem dashboardToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem submitAReportToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem allCasesToolStripMenuItem;

@@ -29,483 +29,483 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashboard_Administrator));
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox12 = new System.Windows.Forms.GroupBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.NAME = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.EMAIL = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ROLE = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.DEPARTMENT = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.STATUS_UM = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.label25 = new System.Windows.Forms.Label();
-            this.groupBox11 = new System.Windows.Forms.GroupBox();
-            this.dataGridView3 = new System.Windows.Forms.DataGridView();
-            this.ACTIVITY = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.label16 = new System.Windows.Forms.Label();
-            this.groupBox8 = new System.Windows.Forms.GroupBox();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.CASE_ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Title = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.STATUS = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ASSIGNED_TO = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.REPORTED_ON = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ACTION = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.label30 = new System.Windows.Forms.Label();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.groupBox7 = new System.Windows.Forms.GroupBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.AdministratorGB_Administrator = new System.Windows.Forms.GroupBox();
+            this.grpDashboardUserManagement_Administrator = new System.Windows.Forms.GroupBox();
+            this.dgvDashboardUserManagement_Administrator = new System.Windows.Forms.DataGridView();
+            this.txtDashboardName_Administrator = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.txtDashboardEmail_Administrator = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.txtDashboardRole_Administrator = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.txtDashboardDepartment_Administrator = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.txtDashboardStatus2_Administrator = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.picDashboardUserManagement_Administrator = new System.Windows.Forms.PictureBox();
+            this.lblDashboardUserManagement_Administrator = new System.Windows.Forms.Label();
+            this.grpDashboardRecSysAct_Administrator = new System.Windows.Forms.GroupBox();
+            this.dgvRecSysAct_Administrator = new System.Windows.Forms.DataGridView();
+            this.txtDashboardRecentSystemAct_Administrator = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.picRecSysAct_Administrator = new System.Windows.Forms.PictureBox();
+            this.lblRecSysAct_Administrator = new System.Windows.Forms.Label();
+            this.grpDashboardCritCasesReqAction_Administrator = new System.Windows.Forms.GroupBox();
+            this.dgvDashboardCritCasesReqAction_Administrator = new System.Windows.Forms.DataGridView();
+            this.txtDashboardCaseID_Administrator = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.txtDashboardTitle_Administrator = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.txtDashboardStatus_Administrator = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cmbDashboardAssignedTo_Administrator = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.txtDashboardReportedOn_Administrator = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnDashboardAction_Administrator = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.picDashboardCritCasesReqAction_Administrator = new System.Windows.Forms.PictureBox();
+            this.lblDashboardCritCasesReqAction_Administrator = new System.Windows.Forms.Label();
+            this.grpDashboardActiveCases_Administrator = new System.Windows.Forms.GroupBox();
+            this.txtDashboardActiveCases_Administrator = new System.Windows.Forms.TextBox();
+            this.lblDashboardActiveCases_Administrator = new System.Windows.Forms.Label();
+            this.grpDashboardCritical_Administrator = new System.Windows.Forms.GroupBox();
+            this.txtDashboardCritical_Administrator = new System.Windows.Forms.TextBox();
+            this.lblDashboardCritical_Administrator = new System.Windows.Forms.Label();
+            this.grpDashboardTotalCases_Administrator = new System.Windows.Forms.GroupBox();
+            this.txtDashboardTotalCases_Administrator = new System.Windows.Forms.TextBox();
+            this.lblDashboardTotalCases_Administrator = new System.Windows.Forms.Label();
+            this.lblAdminDashDesc_Administrator = new System.Windows.Forms.Label();
+            this.lblDashboardAd_Administrator = new System.Windows.Forms.Label();
+            this.picDashboardAd_Administrator = new System.Windows.Forms.PictureBox();
+            this.grpDashboardSysManagement_Administrator = new System.Windows.Forms.GroupBox();
+            this.picSysManagement_Adminstrator = new System.Windows.Forms.PictureBox();
             this.label15 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.groupBox9 = new System.Windows.Forms.GroupBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label13 = new System.Windows.Forms.Label();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.textBox30 = new System.Windows.Forms.TextBox();
-            this.textBox31 = new System.Windows.Forms.TextBox();
-            this.textBox32 = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.groupBox10 = new System.Windows.Forms.GroupBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.groupBox1.SuspendLayout();
-            this.groupBox12.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            this.groupBox11.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            this.groupBox8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            this.groupBox4.SuspendLayout();
-            this.groupBox5.SuspendLayout();
-            this.groupBox3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            this.groupBox7.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            this.groupBox9.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.groupBox6.SuspendLayout();
-            this.groupBox10.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.btnDashboardCreateNewCase_Administrator = new System.Windows.Forms.Button();
+            this.btnDashboardViewAllCases_Administrator = new System.Windows.Forms.Button();
+            this.btnDashboardViewAuditLogs_Administrator = new System.Windows.Forms.Button();
+            this.grpDashboardTotalUsers_Administrator = new System.Windows.Forms.GroupBox();
+            this.txtDashboardTotalUsers_Administrator = new System.Windows.Forms.TextBox();
+            this.lblDashboardTotalUsers_Administrator = new System.Windows.Forms.Label();
+            this.grbLogo_Administrator = new System.Windows.Forms.GroupBox();
+            this.picCyberTrackLogo_Administrator = new System.Windows.Forms.PictureBox();
+            this.lblIncidentManagementSystem_Administrator = new System.Windows.Forms.Label();
+            this.lblCyberTrack_Administrator = new System.Windows.Forms.Label();
+            this.grbUserLogo_Administrator = new System.Windows.Forms.GroupBox();
+            this.picUserPhoto_Administrator = new System.Windows.Forms.PictureBox();
+            this.lblUserRole_Administrator = new System.Windows.Forms.Label();
+            this.lblUserName_Administrator = new System.Windows.Forms.Label();
+            this.grbPermissions_Administrator = new System.Windows.Forms.GroupBox();
+            this.txtDelete_Administrator = new System.Windows.Forms.TextBox();
+            this.txtUpdate_Administrator = new System.Windows.Forms.TextBox();
+            this.txtCreate_Administrator = new System.Windows.Forms.TextBox();
+            this.lblDelete_Administrator = new System.Windows.Forms.Label();
+            this.lblUpdate_Administrator = new System.Windows.Forms.Label();
+            this.lblCreate_Administrator = new System.Windows.Forms.Label();
+            this.lblPermissions_Administrator = new System.Windows.Forms.Label();
+            this.AdministratorGB_Administrator.SuspendLayout();
+            this.grpDashboardUserManagement_Administrator.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDashboardUserManagement_Administrator)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picDashboardUserManagement_Administrator)).BeginInit();
+            this.grpDashboardRecSysAct_Administrator.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvRecSysAct_Administrator)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picRecSysAct_Administrator)).BeginInit();
+            this.grpDashboardCritCasesReqAction_Administrator.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDashboardCritCasesReqAction_Administrator)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picDashboardCritCasesReqAction_Administrator)).BeginInit();
+            this.grpDashboardActiveCases_Administrator.SuspendLayout();
+            this.grpDashboardCritical_Administrator.SuspendLayout();
+            this.grpDashboardTotalCases_Administrator.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picDashboardAd_Administrator)).BeginInit();
+            this.grpDashboardSysManagement_Administrator.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picSysManagement_Adminstrator)).BeginInit();
+            this.grpDashboardTotalUsers_Administrator.SuspendLayout();
+            this.grbLogo_Administrator.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picCyberTrackLogo_Administrator)).BeginInit();
+            this.grbUserLogo_Administrator.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picUserPhoto_Administrator)).BeginInit();
+            this.grbPermissions_Administrator.SuspendLayout();
             this.SuspendLayout();
             // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.groupBox12);
-            this.groupBox1.Controls.Add(this.groupBox11);
-            this.groupBox1.Controls.Add(this.groupBox8);
-            this.groupBox1.Controls.Add(this.groupBox4);
-            this.groupBox1.Controls.Add(this.groupBox5);
-            this.groupBox1.Controls.Add(this.groupBox3);
-            this.groupBox1.Controls.Add(this.label10);
-            this.groupBox1.Controls.Add(this.label9);
-            this.groupBox1.Controls.Add(this.pictureBox3);
-            this.groupBox1.Controls.Add(this.groupBox7);
-            this.groupBox1.Controls.Add(this.groupBox9);
-            this.groupBox1.Location = new System.Drawing.Point(12, 92);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1260, 968);
-            this.groupBox1.TabIndex = 0;
-            this.groupBox1.TabStop = false;
-            // 
-            // groupBox12
-            // 
-            this.groupBox12.Controls.Add(this.dataGridView1);
-            this.groupBox12.Controls.Add(this.pictureBox7);
-            this.groupBox12.Controls.Add(this.label25);
-            this.groupBox12.Location = new System.Drawing.Point(27, 719);
-            this.groupBox12.Name = "groupBox12";
-            this.groupBox12.Size = new System.Drawing.Size(1206, 241);
-            this.groupBox12.TabIndex = 52;
-            this.groupBox12.TabStop = false;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.NAME,
-            this.EMAIL,
-            this.ROLE,
-            this.DEPARTMENT,
-            this.STATUS_UM});
-            this.dataGridView1.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
-            this.dataGridView1.Location = new System.Drawing.Point(26, 67);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(1137, 168);
-            this.dataGridView1.TabIndex = 72;
-            // 
-            // NAME
-            // 
-            this.NAME.HeaderText = "NAME";
-            this.NAME.Name = "NAME";
-            this.NAME.ReadOnly = true;
-            this.NAME.Width = 219;
-            // 
-            // EMAIL
-            // 
-            this.EMAIL.HeaderText = "EMAIL";
-            this.EMAIL.Name = "EMAIL";
-            this.EMAIL.ReadOnly = true;
-            this.EMAIL.Width = 219;
-            // 
-            // ROLE
-            // 
-            this.ROLE.HeaderText = "ROLE";
-            this.ROLE.Name = "ROLE";
-            this.ROLE.ReadOnly = true;
-            this.ROLE.Width = 218;
-            // 
-            // DEPARTMENT
-            // 
-            this.DEPARTMENT.HeaderText = "DEPARTMENT";
-            this.DEPARTMENT.Name = "DEPARTMENT";
-            this.DEPARTMENT.ReadOnly = true;
-            this.DEPARTMENT.Width = 219;
-            // 
-            // STATUS_UM
-            // 
-            this.STATUS_UM.HeaderText = "STATUS";
-            this.STATUS_UM.Name = "STATUS_UM";
-            this.STATUS_UM.ReadOnly = true;
-            this.STATUS_UM.Width = 219;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.BackgroundImage = global::CyberTrack_Administrator.Properties.Resources.UserMIcon;
-            this.pictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox7.ErrorImage = null;
-            this.pictureBox7.InitialImage = null;
-            this.pictureBox7.Location = new System.Drawing.Point(26, 19);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(44, 42);
-            this.pictureBox7.TabIndex = 9;
-            this.pictureBox7.TabStop = false;
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(76, 31);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(176, 18);
-            this.label25.TabIndex = 7;
-            this.label25.Text = "USER MANAGEMENT";
-            // 
-            // groupBox11
-            // 
-            this.groupBox11.Controls.Add(this.dataGridView3);
-            this.groupBox11.Controls.Add(this.pictureBox6);
-            this.groupBox11.Controls.Add(this.label16);
-            this.groupBox11.Location = new System.Drawing.Point(640, 197);
-            this.groupBox11.Name = "groupBox11";
-            this.groupBox11.Size = new System.Drawing.Size(593, 269);
-            this.groupBox11.TabIndex = 34;
-            this.groupBox11.TabStop = false;
-            // 
-            // dataGridView3
-            // 
-            this.dataGridView3.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView3.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.ACTIVITY});
-            this.dataGridView3.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
-            this.dataGridView3.Location = new System.Drawing.Point(26, 101);
-            this.dataGridView3.Name = "dataGridView3";
-            this.dataGridView3.Size = new System.Drawing.Size(539, 150);
-            this.dataGridView3.TabIndex = 72;
-            // 
-            // ACTIVITY
-            // 
-            this.ACTIVITY.HeaderText = "ACTIVITY";
-            this.ACTIVITY.Name = "ACTIVITY";
-            this.ACTIVITY.ReadOnly = true;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.BackgroundImage = global::CyberTrack_Administrator.Properties.Resources.AuditLogsIcon;
-            this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox6.ErrorImage = null;
-            this.pictureBox6.InitialImage = null;
-            this.pictureBox6.Location = new System.Drawing.Point(26, 32);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(44, 42);
-            this.pictureBox6.TabIndex = 9;
-            this.pictureBox6.TabStop = false;
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(76, 44);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(223, 18);
-            this.label16.TabIndex = 7;
-            this.label16.Text = "RECENT SYSTEM ACTIVITY";
-            // 
-            // groupBox8
-            // 
-            this.groupBox8.Controls.Add(this.dataGridView2);
-            this.groupBox8.Controls.Add(this.pictureBox5);
-            this.groupBox8.Controls.Add(this.label30);
-            this.groupBox8.Location = new System.Drawing.Point(27, 472);
-            this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Size = new System.Drawing.Size(1206, 241);
-            this.groupBox8.TabIndex = 34;
-            this.groupBox8.TabStop = false;
-            // 
-            // dataGridView2
-            // 
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.CASE_ID,
-            this.Title,
-            this.STATUS,
-            this.ASSIGNED_TO,
-            this.REPORTED_ON,
-            this.ACTION});
-            this.dataGridView2.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
-            this.dataGridView2.Location = new System.Drawing.Point(26, 67);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.Size = new System.Drawing.Size(1137, 155);
-            this.dataGridView2.TabIndex = 71;
-            // 
-            // CASE_ID
-            // 
-            this.CASE_ID.HeaderText = "CASE ID";
-            this.CASE_ID.Name = "CASE_ID";
-            this.CASE_ID.ReadOnly = true;
-            this.CASE_ID.Width = 182;
-            // 
-            // Title
-            // 
-            this.Title.HeaderText = "TITLE";
-            this.Title.Name = "Title";
-            this.Title.ReadOnly = true;
-            this.Title.Width = 183;
-            // 
-            // STATUS
-            // 
-            this.STATUS.HeaderText = "STATUS";
-            this.STATUS.Name = "STATUS";
-            this.STATUS.ReadOnly = true;
-            this.STATUS.Width = 182;
-            // 
-            // ASSIGNED_TO
-            // 
-            this.ASSIGNED_TO.HeaderText = "ASSIGNED TO";
-            this.ASSIGNED_TO.Name = "ASSIGNED_TO";
-            this.ASSIGNED_TO.ReadOnly = true;
-            this.ASSIGNED_TO.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.ASSIGNED_TO.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.ASSIGNED_TO.Width = 182;
-            // 
-            // REPORTED_ON
-            // 
-            this.REPORTED_ON.HeaderText = "REPORTED ON";
-            this.REPORTED_ON.Name = "REPORTED_ON";
-            this.REPORTED_ON.ReadOnly = true;
-            this.REPORTED_ON.Width = 183;
-            // 
-            // ACTION
-            // 
-            this.ACTION.HeaderText = "ACTION";
-            this.ACTION.Name = "ACTION";
-            this.ACTION.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.ACTION.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.ACTION.Text = "MANAGE";
-            this.ACTION.Width = 182;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.BackgroundImage = global::CyberTrack_Administrator.Properties.Resources.CriticalCasesIcon;
-            this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox5.ErrorImage = null;
-            this.pictureBox5.InitialImage = null;
-            this.pictureBox5.Location = new System.Drawing.Point(26, 19);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(44, 42);
-            this.pictureBox5.TabIndex = 9;
-            this.pictureBox5.TabStop = false;
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.Location = new System.Drawing.Point(76, 31);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(310, 18);
-            this.label30.TabIndex = 7;
-            this.label30.Text = " CRITICAL CASES REQUIRING ACTION";
-            // 
-            // groupBox4
-            // 
-            this.groupBox4.Controls.Add(this.textBox2);
-            this.groupBox4.Controls.Add(this.label11);
-            this.groupBox4.Location = new System.Drawing.Point(338, 91);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(282, 100);
-            this.groupBox4.TabIndex = 27;
-            this.groupBox4.TabStop = false;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(13, 52);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(77, 31);
-            this.textBox2.TabIndex = 5;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(10, 25);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(101, 15);
-            this.label11.TabIndex = 4;
-            this.label11.Text = "ACTIVE CASES";
-            // 
-            // groupBox5
-            // 
-            this.groupBox5.Controls.Add(this.textBox3);
-            this.groupBox5.Controls.Add(this.label12);
-            this.groupBox5.Location = new System.Drawing.Point(640, 91);
-            this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(282, 100);
-            this.groupBox5.TabIndex = 28;
-            this.groupBox5.TabStop = false;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(13, 52);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(77, 31);
-            this.textBox3.TabIndex = 5;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(10, 25);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(67, 15);
-            this.label12.TabIndex = 4;
-            this.label12.Text = "CRITICAL";
-            // 
-            // groupBox3
-            // 
-            this.groupBox3.Controls.Add(this.textBox1);
-            this.groupBox3.Controls.Add(this.label14);
-            this.groupBox3.Location = new System.Drawing.Point(27, 91);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(282, 100);
-            this.groupBox3.TabIndex = 26;
-            this.groupBox3.TabStop = false;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(13, 52);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(77, 31);
-            this.textBox1.TabIndex = 5;
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(10, 25);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(97, 15);
-            this.label14.TabIndex = 4;
-            this.label14.Text = "TOTAL CASES";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(27, 64);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(173, 15);
-            this.label10.TabIndex = 25;
-            this.label10.Text = "Full system access and control";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(81, 30);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(250, 18);
-            this.label9.TabIndex = 24;
-            this.label9.Text = "ADMINISTRATOR DASHBOARD";
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackgroundImage = global::CyberTrack_Administrator.Properties.Resources.CyberTrack_Icon;
-            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox3.ErrorImage = null;
-            this.pictureBox3.InitialImage = null;
-            this.pictureBox3.Location = new System.Drawing.Point(27, 19);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(44, 42);
-            this.pictureBox3.TabIndex = 23;
-            this.pictureBox3.TabStop = false;
-            // 
-            // groupBox7
-            // 
-            this.groupBox7.Controls.Add(this.pictureBox4);
-            this.groupBox7.Controls.Add(this.label15);
-            this.groupBox7.Controls.Add(this.button4);
-            this.groupBox7.Controls.Add(this.button5);
-            this.groupBox7.Controls.Add(this.button6);
-            this.groupBox7.Location = new System.Drawing.Point(27, 197);
-            this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(593, 269);
-            this.groupBox7.TabIndex = 33;
-            this.groupBox7.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.BackgroundImage = global::CyberTrack_Administrator.Properties.Resources.SystemIcon;
-            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox4.ErrorImage = null;
-            this.pictureBox4.InitialImage = null;
-            this.pictureBox4.Location = new System.Drawing.Point(26, 32);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(44, 42);
-            this.pictureBox4.TabIndex = 9;
-            this.pictureBox4.TabStop = false;
+            // AdministratorGB_Administrator
+            // 
+            this.AdministratorGB_Administrator.Controls.Add(this.grpDashboardUserManagement_Administrator);
+            this.AdministratorGB_Administrator.Controls.Add(this.grpDashboardRecSysAct_Administrator);
+            this.AdministratorGB_Administrator.Controls.Add(this.grpDashboardCritCasesReqAction_Administrator);
+            this.AdministratorGB_Administrator.Controls.Add(this.grpDashboardActiveCases_Administrator);
+            this.AdministratorGB_Administrator.Controls.Add(this.grpDashboardCritical_Administrator);
+            this.AdministratorGB_Administrator.Controls.Add(this.grpDashboardTotalCases_Administrator);
+            this.AdministratorGB_Administrator.Controls.Add(this.lblAdminDashDesc_Administrator);
+            this.AdministratorGB_Administrator.Controls.Add(this.lblDashboardAd_Administrator);
+            this.AdministratorGB_Administrator.Controls.Add(this.picDashboardAd_Administrator);
+            this.AdministratorGB_Administrator.Controls.Add(this.grpDashboardSysManagement_Administrator);
+            this.AdministratorGB_Administrator.Controls.Add(this.grpDashboardTotalUsers_Administrator);
+            this.AdministratorGB_Administrator.Location = new System.Drawing.Point(12, 92);
+            this.AdministratorGB_Administrator.Name = "AdministratorGB_Administrator";
+            this.AdministratorGB_Administrator.Size = new System.Drawing.Size(1260, 968);
+            this.AdministratorGB_Administrator.TabIndex = 0;
+            this.AdministratorGB_Administrator.TabStop = false;
+            // 
+            // grpDashboardUserManagement_Administrator
+            // 
+            this.grpDashboardUserManagement_Administrator.Controls.Add(this.dgvDashboardUserManagement_Administrator);
+            this.grpDashboardUserManagement_Administrator.Controls.Add(this.picDashboardUserManagement_Administrator);
+            this.grpDashboardUserManagement_Administrator.Controls.Add(this.lblDashboardUserManagement_Administrator);
+            this.grpDashboardUserManagement_Administrator.Location = new System.Drawing.Point(27, 719);
+            this.grpDashboardUserManagement_Administrator.Name = "grpDashboardUserManagement_Administrator";
+            this.grpDashboardUserManagement_Administrator.Size = new System.Drawing.Size(1206, 241);
+            this.grpDashboardUserManagement_Administrator.TabIndex = 52;
+            this.grpDashboardUserManagement_Administrator.TabStop = false;
+            // 
+            // dgvDashboardUserManagement_Administrator
+            // 
+            this.dgvDashboardUserManagement_Administrator.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvDashboardUserManagement_Administrator.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.txtDashboardName_Administrator,
+            this.txtDashboardEmail_Administrator,
+            this.txtDashboardRole_Administrator,
+            this.txtDashboardDepartment_Administrator,
+            this.txtDashboardStatus2_Administrator});
+            this.dgvDashboardUserManagement_Administrator.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
+            this.dgvDashboardUserManagement_Administrator.Location = new System.Drawing.Point(26, 67);
+            this.dgvDashboardUserManagement_Administrator.Name = "dgvDashboardUserManagement_Administrator";
+            this.dgvDashboardUserManagement_Administrator.Size = new System.Drawing.Size(1137, 168);
+            this.dgvDashboardUserManagement_Administrator.TabIndex = 72;
+            // 
+            // txtDashboardName_Administrator
+            // 
+            this.txtDashboardName_Administrator.HeaderText = "NAME";
+            this.txtDashboardName_Administrator.Name = "txtDashboardName_Administrator";
+            this.txtDashboardName_Administrator.ReadOnly = true;
+            this.txtDashboardName_Administrator.Width = 219;
+            // 
+            // txtDashboardEmail_Administrator
+            // 
+            this.txtDashboardEmail_Administrator.HeaderText = "EMAIL";
+            this.txtDashboardEmail_Administrator.Name = "txtDashboardEmail_Administrator";
+            this.txtDashboardEmail_Administrator.ReadOnly = true;
+            this.txtDashboardEmail_Administrator.Width = 219;
+            // 
+            // txtDashboardRole_Administrator
+            // 
+            this.txtDashboardRole_Administrator.HeaderText = "ROLE";
+            this.txtDashboardRole_Administrator.Name = "txtDashboardRole_Administrator";
+            this.txtDashboardRole_Administrator.ReadOnly = true;
+            this.txtDashboardRole_Administrator.Width = 218;
+            // 
+            // txtDashboardDepartment_Administrator
+            // 
+            this.txtDashboardDepartment_Administrator.HeaderText = "DEPARTMENT";
+            this.txtDashboardDepartment_Administrator.Name = "txtDashboardDepartment_Administrator";
+            this.txtDashboardDepartment_Administrator.ReadOnly = true;
+            this.txtDashboardDepartment_Administrator.Width = 219;
+            // 
+            // txtDashboardStatus2_Administrator
+            // 
+            this.txtDashboardStatus2_Administrator.HeaderText = "STATUS";
+            this.txtDashboardStatus2_Administrator.Name = "txtDashboardStatus2_Administrator";
+            this.txtDashboardStatus2_Administrator.ReadOnly = true;
+            this.txtDashboardStatus2_Administrator.Width = 219;
+            // 
+            // picDashboardUserManagement_Administrator
+            // 
+            this.picDashboardUserManagement_Administrator.BackgroundImage = global::CyberTrack_Administrator.Properties.Resources.UserMIcon;
+            this.picDashboardUserManagement_Administrator.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picDashboardUserManagement_Administrator.ErrorImage = null;
+            this.picDashboardUserManagement_Administrator.InitialImage = null;
+            this.picDashboardUserManagement_Administrator.Location = new System.Drawing.Point(26, 19);
+            this.picDashboardUserManagement_Administrator.Name = "picDashboardUserManagement_Administrator";
+            this.picDashboardUserManagement_Administrator.Size = new System.Drawing.Size(44, 42);
+            this.picDashboardUserManagement_Administrator.TabIndex = 9;
+            this.picDashboardUserManagement_Administrator.TabStop = false;
+            // 
+            // lblDashboardUserManagement_Administrator
+            // 
+            this.lblDashboardUserManagement_Administrator.AutoSize = true;
+            this.lblDashboardUserManagement_Administrator.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDashboardUserManagement_Administrator.Location = new System.Drawing.Point(76, 31);
+            this.lblDashboardUserManagement_Administrator.Name = "lblDashboardUserManagement_Administrator";
+            this.lblDashboardUserManagement_Administrator.Size = new System.Drawing.Size(176, 18);
+            this.lblDashboardUserManagement_Administrator.TabIndex = 7;
+            this.lblDashboardUserManagement_Administrator.Text = "USER MANAGEMENT";
+            // 
+            // grpDashboardRecSysAct_Administrator
+            // 
+            this.grpDashboardRecSysAct_Administrator.Controls.Add(this.dgvRecSysAct_Administrator);
+            this.grpDashboardRecSysAct_Administrator.Controls.Add(this.picRecSysAct_Administrator);
+            this.grpDashboardRecSysAct_Administrator.Controls.Add(this.lblRecSysAct_Administrator);
+            this.grpDashboardRecSysAct_Administrator.Location = new System.Drawing.Point(640, 197);
+            this.grpDashboardRecSysAct_Administrator.Name = "grpDashboardRecSysAct_Administrator";
+            this.grpDashboardRecSysAct_Administrator.Size = new System.Drawing.Size(593, 269);
+            this.grpDashboardRecSysAct_Administrator.TabIndex = 34;
+            this.grpDashboardRecSysAct_Administrator.TabStop = false;
+            // 
+            // dgvRecSysAct_Administrator
+            // 
+            this.dgvRecSysAct_Administrator.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvRecSysAct_Administrator.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvRecSysAct_Administrator.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.txtDashboardRecentSystemAct_Administrator});
+            this.dgvRecSysAct_Administrator.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
+            this.dgvRecSysAct_Administrator.Location = new System.Drawing.Point(26, 101);
+            this.dgvRecSysAct_Administrator.Name = "dgvRecSysAct_Administrator";
+            this.dgvRecSysAct_Administrator.Size = new System.Drawing.Size(539, 150);
+            this.dgvRecSysAct_Administrator.TabIndex = 72;
+            // 
+            // txtDashboardRecentSystemAct_Administrator
+            // 
+            this.txtDashboardRecentSystemAct_Administrator.HeaderText = "ACTIVITY";
+            this.txtDashboardRecentSystemAct_Administrator.Name = "txtDashboardRecentSystemAct_Administrator";
+            this.txtDashboardRecentSystemAct_Administrator.ReadOnly = true;
+            // 
+            // picRecSysAct_Administrator
+            // 
+            this.picRecSysAct_Administrator.BackgroundImage = global::CyberTrack_Administrator.Properties.Resources.AuditLogsIcon;
+            this.picRecSysAct_Administrator.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picRecSysAct_Administrator.ErrorImage = null;
+            this.picRecSysAct_Administrator.InitialImage = null;
+            this.picRecSysAct_Administrator.Location = new System.Drawing.Point(26, 32);
+            this.picRecSysAct_Administrator.Name = "picRecSysAct_Administrator";
+            this.picRecSysAct_Administrator.Size = new System.Drawing.Size(44, 42);
+            this.picRecSysAct_Administrator.TabIndex = 9;
+            this.picRecSysAct_Administrator.TabStop = false;
+            // 
+            // lblRecSysAct_Administrator
+            // 
+            this.lblRecSysAct_Administrator.AutoSize = true;
+            this.lblRecSysAct_Administrator.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRecSysAct_Administrator.Location = new System.Drawing.Point(76, 44);
+            this.lblRecSysAct_Administrator.Name = "lblRecSysAct_Administrator";
+            this.lblRecSysAct_Administrator.Size = new System.Drawing.Size(223, 18);
+            this.lblRecSysAct_Administrator.TabIndex = 7;
+            this.lblRecSysAct_Administrator.Text = "RECENT SYSTEM ACTIVITY";
+            // 
+            // grpDashboardCritCasesReqAction_Administrator
+            // 
+            this.grpDashboardCritCasesReqAction_Administrator.Controls.Add(this.dgvDashboardCritCasesReqAction_Administrator);
+            this.grpDashboardCritCasesReqAction_Administrator.Controls.Add(this.picDashboardCritCasesReqAction_Administrator);
+            this.grpDashboardCritCasesReqAction_Administrator.Controls.Add(this.lblDashboardCritCasesReqAction_Administrator);
+            this.grpDashboardCritCasesReqAction_Administrator.Location = new System.Drawing.Point(27, 472);
+            this.grpDashboardCritCasesReqAction_Administrator.Name = "grpDashboardCritCasesReqAction_Administrator";
+            this.grpDashboardCritCasesReqAction_Administrator.Size = new System.Drawing.Size(1206, 241);
+            this.grpDashboardCritCasesReqAction_Administrator.TabIndex = 34;
+            this.grpDashboardCritCasesReqAction_Administrator.TabStop = false;
+            // 
+            // dgvDashboardCritCasesReqAction_Administrator
+            // 
+            this.dgvDashboardCritCasesReqAction_Administrator.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvDashboardCritCasesReqAction_Administrator.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.txtDashboardCaseID_Administrator,
+            this.txtDashboardTitle_Administrator,
+            this.txtDashboardStatus_Administrator,
+            this.cmbDashboardAssignedTo_Administrator,
+            this.txtDashboardReportedOn_Administrator,
+            this.btnDashboardAction_Administrator});
+            this.dgvDashboardCritCasesReqAction_Administrator.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
+            this.dgvDashboardCritCasesReqAction_Administrator.Location = new System.Drawing.Point(26, 67);
+            this.dgvDashboardCritCasesReqAction_Administrator.Name = "dgvDashboardCritCasesReqAction_Administrator";
+            this.dgvDashboardCritCasesReqAction_Administrator.Size = new System.Drawing.Size(1137, 155);
+            this.dgvDashboardCritCasesReqAction_Administrator.TabIndex = 71;
+            // 
+            // txtDashboardCaseID_Administrator
+            // 
+            this.txtDashboardCaseID_Administrator.HeaderText = "CASE ID";
+            this.txtDashboardCaseID_Administrator.Name = "txtDashboardCaseID_Administrator";
+            this.txtDashboardCaseID_Administrator.ReadOnly = true;
+            this.txtDashboardCaseID_Administrator.Width = 182;
+            // 
+            // txtDashboardTitle_Administrator
+            // 
+            this.txtDashboardTitle_Administrator.HeaderText = "TITLE";
+            this.txtDashboardTitle_Administrator.Name = "txtDashboardTitle_Administrator";
+            this.txtDashboardTitle_Administrator.ReadOnly = true;
+            this.txtDashboardTitle_Administrator.Width = 183;
+            // 
+            // txtDashboardStatus_Administrator
+            // 
+            this.txtDashboardStatus_Administrator.HeaderText = "STATUS";
+            this.txtDashboardStatus_Administrator.Name = "txtDashboardStatus_Administrator";
+            this.txtDashboardStatus_Administrator.ReadOnly = true;
+            this.txtDashboardStatus_Administrator.Width = 182;
+            // 
+            // cmbDashboardAssignedTo_Administrator
+            // 
+            this.cmbDashboardAssignedTo_Administrator.HeaderText = "ASSIGNED TO";
+            this.cmbDashboardAssignedTo_Administrator.Name = "cmbDashboardAssignedTo_Administrator";
+            this.cmbDashboardAssignedTo_Administrator.ReadOnly = true;
+            this.cmbDashboardAssignedTo_Administrator.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.cmbDashboardAssignedTo_Administrator.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.cmbDashboardAssignedTo_Administrator.Width = 182;
+            // 
+            // txtDashboardReportedOn_Administrator
+            // 
+            this.txtDashboardReportedOn_Administrator.HeaderText = "REPORTED ON";
+            this.txtDashboardReportedOn_Administrator.Name = "txtDashboardReportedOn_Administrator";
+            this.txtDashboardReportedOn_Administrator.ReadOnly = true;
+            this.txtDashboardReportedOn_Administrator.Width = 183;
+            // 
+            // btnDashboardAction_Administrator
+            // 
+            this.btnDashboardAction_Administrator.HeaderText = "ACTION";
+            this.btnDashboardAction_Administrator.Name = "btnDashboardAction_Administrator";
+            this.btnDashboardAction_Administrator.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.btnDashboardAction_Administrator.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.btnDashboardAction_Administrator.Text = "MANAGE";
+            this.btnDashboardAction_Administrator.Width = 182;
+            // 
+            // picDashboardCritCasesReqAction_Administrator
+            // 
+            this.picDashboardCritCasesReqAction_Administrator.BackgroundImage = global::CyberTrack_Administrator.Properties.Resources.CriticalCasesIcon;
+            this.picDashboardCritCasesReqAction_Administrator.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picDashboardCritCasesReqAction_Administrator.ErrorImage = null;
+            this.picDashboardCritCasesReqAction_Administrator.InitialImage = null;
+            this.picDashboardCritCasesReqAction_Administrator.Location = new System.Drawing.Point(26, 19);
+            this.picDashboardCritCasesReqAction_Administrator.Name = "picDashboardCritCasesReqAction_Administrator";
+            this.picDashboardCritCasesReqAction_Administrator.Size = new System.Drawing.Size(44, 42);
+            this.picDashboardCritCasesReqAction_Administrator.TabIndex = 9;
+            this.picDashboardCritCasesReqAction_Administrator.TabStop = false;
+            // 
+            // lblDashboardCritCasesReqAction_Administrator
+            // 
+            this.lblDashboardCritCasesReqAction_Administrator.AutoSize = true;
+            this.lblDashboardCritCasesReqAction_Administrator.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDashboardCritCasesReqAction_Administrator.Location = new System.Drawing.Point(76, 31);
+            this.lblDashboardCritCasesReqAction_Administrator.Name = "lblDashboardCritCasesReqAction_Administrator";
+            this.lblDashboardCritCasesReqAction_Administrator.Size = new System.Drawing.Size(310, 18);
+            this.lblDashboardCritCasesReqAction_Administrator.TabIndex = 7;
+            this.lblDashboardCritCasesReqAction_Administrator.Text = " CRITICAL CASES REQUIRING ACTION";
+            // 
+            // grpDashboardActiveCases_Administrator
+            // 
+            this.grpDashboardActiveCases_Administrator.Controls.Add(this.txtDashboardActiveCases_Administrator);
+            this.grpDashboardActiveCases_Administrator.Controls.Add(this.lblDashboardActiveCases_Administrator);
+            this.grpDashboardActiveCases_Administrator.Location = new System.Drawing.Point(338, 91);
+            this.grpDashboardActiveCases_Administrator.Name = "grpDashboardActiveCases_Administrator";
+            this.grpDashboardActiveCases_Administrator.Size = new System.Drawing.Size(282, 100);
+            this.grpDashboardActiveCases_Administrator.TabIndex = 27;
+            this.grpDashboardActiveCases_Administrator.TabStop = false;
+            // 
+            // txtDashboardActiveCases_Administrator
+            // 
+            this.txtDashboardActiveCases_Administrator.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDashboardActiveCases_Administrator.Location = new System.Drawing.Point(13, 52);
+            this.txtDashboardActiveCases_Administrator.Name = "txtDashboardActiveCases_Administrator";
+            this.txtDashboardActiveCases_Administrator.ReadOnly = true;
+            this.txtDashboardActiveCases_Administrator.Size = new System.Drawing.Size(77, 31);
+            this.txtDashboardActiveCases_Administrator.TabIndex = 5;
+            // 
+            // lblDashboardActiveCases_Administrator
+            // 
+            this.lblDashboardActiveCases_Administrator.AutoSize = true;
+            this.lblDashboardActiveCases_Administrator.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDashboardActiveCases_Administrator.Location = new System.Drawing.Point(10, 25);
+            this.lblDashboardActiveCases_Administrator.Name = "lblDashboardActiveCases_Administrator";
+            this.lblDashboardActiveCases_Administrator.Size = new System.Drawing.Size(101, 15);
+            this.lblDashboardActiveCases_Administrator.TabIndex = 4;
+            this.lblDashboardActiveCases_Administrator.Text = "ACTIVE CASES";
+            // 
+            // grpDashboardCritical_Administrator
+            // 
+            this.grpDashboardCritical_Administrator.Controls.Add(this.txtDashboardCritical_Administrator);
+            this.grpDashboardCritical_Administrator.Controls.Add(this.lblDashboardCritical_Administrator);
+            this.grpDashboardCritical_Administrator.Location = new System.Drawing.Point(640, 91);
+            this.grpDashboardCritical_Administrator.Name = "grpDashboardCritical_Administrator";
+            this.grpDashboardCritical_Administrator.Size = new System.Drawing.Size(282, 100);
+            this.grpDashboardCritical_Administrator.TabIndex = 28;
+            this.grpDashboardCritical_Administrator.TabStop = false;
+            // 
+            // txtDashboardCritical_Administrator
+            // 
+            this.txtDashboardCritical_Administrator.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDashboardCritical_Administrator.Location = new System.Drawing.Point(13, 52);
+            this.txtDashboardCritical_Administrator.Name = "txtDashboardCritical_Administrator";
+            this.txtDashboardCritical_Administrator.ReadOnly = true;
+            this.txtDashboardCritical_Administrator.Size = new System.Drawing.Size(77, 31);
+            this.txtDashboardCritical_Administrator.TabIndex = 5;
+            // 
+            // lblDashboardCritical_Administrator
+            // 
+            this.lblDashboardCritical_Administrator.AutoSize = true;
+            this.lblDashboardCritical_Administrator.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDashboardCritical_Administrator.Location = new System.Drawing.Point(10, 25);
+            this.lblDashboardCritical_Administrator.Name = "lblDashboardCritical_Administrator";
+            this.lblDashboardCritical_Administrator.Size = new System.Drawing.Size(67, 15);
+            this.lblDashboardCritical_Administrator.TabIndex = 4;
+            this.lblDashboardCritical_Administrator.Text = "CRITICAL";
+            // 
+            // grpDashboardTotalCases_Administrator
+            // 
+            this.grpDashboardTotalCases_Administrator.Controls.Add(this.txtDashboardTotalCases_Administrator);
+            this.grpDashboardTotalCases_Administrator.Controls.Add(this.lblDashboardTotalCases_Administrator);
+            this.grpDashboardTotalCases_Administrator.Location = new System.Drawing.Point(27, 91);
+            this.grpDashboardTotalCases_Administrator.Name = "grpDashboardTotalCases_Administrator";
+            this.grpDashboardTotalCases_Administrator.Size = new System.Drawing.Size(282, 100);
+            this.grpDashboardTotalCases_Administrator.TabIndex = 26;
+            this.grpDashboardTotalCases_Administrator.TabStop = false;
+            // 
+            // txtDashboardTotalCases_Administrator
+            // 
+            this.txtDashboardTotalCases_Administrator.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDashboardTotalCases_Administrator.Location = new System.Drawing.Point(13, 52);
+            this.txtDashboardTotalCases_Administrator.Name = "txtDashboardTotalCases_Administrator";
+            this.txtDashboardTotalCases_Administrator.ReadOnly = true;
+            this.txtDashboardTotalCases_Administrator.Size = new System.Drawing.Size(77, 31);
+            this.txtDashboardTotalCases_Administrator.TabIndex = 5;
+            // 
+            // lblDashboardTotalCases_Administrator
+            // 
+            this.lblDashboardTotalCases_Administrator.AutoSize = true;
+            this.lblDashboardTotalCases_Administrator.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDashboardTotalCases_Administrator.Location = new System.Drawing.Point(10, 25);
+            this.lblDashboardTotalCases_Administrator.Name = "lblDashboardTotalCases_Administrator";
+            this.lblDashboardTotalCases_Administrator.Size = new System.Drawing.Size(97, 15);
+            this.lblDashboardTotalCases_Administrator.TabIndex = 4;
+            this.lblDashboardTotalCases_Administrator.Text = "TOTAL CASES";
+            // 
+            // lblAdminDashDesc_Administrator
+            // 
+            this.lblAdminDashDesc_Administrator.AutoSize = true;
+            this.lblAdminDashDesc_Administrator.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAdminDashDesc_Administrator.Location = new System.Drawing.Point(27, 64);
+            this.lblAdminDashDesc_Administrator.Name = "lblAdminDashDesc_Administrator";
+            this.lblAdminDashDesc_Administrator.Size = new System.Drawing.Size(173, 15);
+            this.lblAdminDashDesc_Administrator.TabIndex = 25;
+            this.lblAdminDashDesc_Administrator.Text = "Full system access and control";
+            // 
+            // lblDashboardAd_Administrator
+            // 
+            this.lblDashboardAd_Administrator.AutoSize = true;
+            this.lblDashboardAd_Administrator.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDashboardAd_Administrator.Location = new System.Drawing.Point(81, 30);
+            this.lblDashboardAd_Administrator.Name = "lblDashboardAd_Administrator";
+            this.lblDashboardAd_Administrator.Size = new System.Drawing.Size(250, 18);
+            this.lblDashboardAd_Administrator.TabIndex = 24;
+            this.lblDashboardAd_Administrator.Text = "ADMINISTRATOR DASHBOARD";
+            // 
+            // picDashboardAd_Administrator
+            // 
+            this.picDashboardAd_Administrator.BackgroundImage = global::CyberTrack_Administrator.Properties.Resources.CyberTrack_Icon;
+            this.picDashboardAd_Administrator.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picDashboardAd_Administrator.ErrorImage = null;
+            this.picDashboardAd_Administrator.InitialImage = null;
+            this.picDashboardAd_Administrator.Location = new System.Drawing.Point(27, 19);
+            this.picDashboardAd_Administrator.Name = "picDashboardAd_Administrator";
+            this.picDashboardAd_Administrator.Size = new System.Drawing.Size(44, 42);
+            this.picDashboardAd_Administrator.TabIndex = 23;
+            this.picDashboardAd_Administrator.TabStop = false;
+            // 
+            // grpDashboardSysManagement_Administrator
+            // 
+            this.grpDashboardSysManagement_Administrator.Controls.Add(this.picSysManagement_Adminstrator);
+            this.grpDashboardSysManagement_Administrator.Controls.Add(this.label15);
+            this.grpDashboardSysManagement_Administrator.Controls.Add(this.btnDashboardCreateNewCase_Administrator);
+            this.grpDashboardSysManagement_Administrator.Controls.Add(this.btnDashboardViewAllCases_Administrator);
+            this.grpDashboardSysManagement_Administrator.Controls.Add(this.btnDashboardViewAuditLogs_Administrator);
+            this.grpDashboardSysManagement_Administrator.Location = new System.Drawing.Point(27, 197);
+            this.grpDashboardSysManagement_Administrator.Name = "grpDashboardSysManagement_Administrator";
+            this.grpDashboardSysManagement_Administrator.Size = new System.Drawing.Size(593, 269);
+            this.grpDashboardSysManagement_Administrator.TabIndex = 33;
+            this.grpDashboardSysManagement_Administrator.TabStop = false;
+            // 
+            // picSysManagement_Adminstrator
+            // 
+            this.picSysManagement_Adminstrator.BackgroundImage = global::CyberTrack_Administrator.Properties.Resources.SystemIcon;
+            this.picSysManagement_Adminstrator.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picSysManagement_Adminstrator.ErrorImage = null;
+            this.picSysManagement_Adminstrator.InitialImage = null;
+            this.picSysManagement_Adminstrator.Location = new System.Drawing.Point(26, 32);
+            this.picSysManagement_Adminstrator.Name = "picSysManagement_Adminstrator";
+            this.picSysManagement_Adminstrator.Size = new System.Drawing.Size(44, 42);
+            this.picSysManagement_Adminstrator.TabIndex = 9;
+            this.picSysManagement_Adminstrator.TabStop = false;
             // 
             // label15
             // 
@@ -517,348 +517,346 @@
             this.label15.TabIndex = 7;
             this.label15.Text = "SYSTEM MANAGEMENT";
             // 
-            // button4
+            // btnDashboardCreateNewCase_Administrator
             // 
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(26, 101);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(539, 46);
-            this.button4.TabIndex = 30;
-            this.button4.Text = "CREATE NEW CASE";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnDashboardCreateNewCase_Administrator.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDashboardCreateNewCase_Administrator.Location = new System.Drawing.Point(26, 101);
+            this.btnDashboardCreateNewCase_Administrator.Name = "btnDashboardCreateNewCase_Administrator";
+            this.btnDashboardCreateNewCase_Administrator.Size = new System.Drawing.Size(539, 46);
+            this.btnDashboardCreateNewCase_Administrator.TabIndex = 30;
+            this.btnDashboardCreateNewCase_Administrator.Text = "CREATE NEW CASE";
+            this.btnDashboardCreateNewCase_Administrator.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // btnDashboardViewAllCases_Administrator
             // 
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(26, 153);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(539, 46);
-            this.button5.TabIndex = 31;
-            this.button5.Text = "VIEW ALL CASES";
-            this.button5.UseVisualStyleBackColor = true;
+            this.btnDashboardViewAllCases_Administrator.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDashboardViewAllCases_Administrator.Location = new System.Drawing.Point(26, 153);
+            this.btnDashboardViewAllCases_Administrator.Name = "btnDashboardViewAllCases_Administrator";
+            this.btnDashboardViewAllCases_Administrator.Size = new System.Drawing.Size(539, 46);
+            this.btnDashboardViewAllCases_Administrator.TabIndex = 31;
+            this.btnDashboardViewAllCases_Administrator.Text = "VIEW ALL CASES";
+            this.btnDashboardViewAllCases_Administrator.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // btnDashboardViewAuditLogs_Administrator
             // 
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(26, 205);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(539, 46);
-            this.button6.TabIndex = 32;
-            this.button6.Text = "VIEW AUDIT LOGS";
-            this.button6.UseVisualStyleBackColor = true;
+            this.btnDashboardViewAuditLogs_Administrator.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDashboardViewAuditLogs_Administrator.Location = new System.Drawing.Point(26, 205);
+            this.btnDashboardViewAuditLogs_Administrator.Name = "btnDashboardViewAuditLogs_Administrator";
+            this.btnDashboardViewAuditLogs_Administrator.Size = new System.Drawing.Size(539, 46);
+            this.btnDashboardViewAuditLogs_Administrator.TabIndex = 32;
+            this.btnDashboardViewAuditLogs_Administrator.Text = "VIEW AUDIT LOGS";
+            this.btnDashboardViewAuditLogs_Administrator.UseVisualStyleBackColor = true;
             // 
-            // groupBox9
+            // grpDashboardTotalUsers_Administrator
             // 
-            this.groupBox9.Controls.Add(this.textBox4);
-            this.groupBox9.Controls.Add(this.label13);
-            this.groupBox9.Location = new System.Drawing.Point(951, 91);
-            this.groupBox9.Name = "groupBox9";
-            this.groupBox9.Size = new System.Drawing.Size(282, 100);
-            this.groupBox9.TabIndex = 29;
-            this.groupBox9.TabStop = false;
+            this.grpDashboardTotalUsers_Administrator.Controls.Add(this.txtDashboardTotalUsers_Administrator);
+            this.grpDashboardTotalUsers_Administrator.Controls.Add(this.lblDashboardTotalUsers_Administrator);
+            this.grpDashboardTotalUsers_Administrator.Location = new System.Drawing.Point(951, 91);
+            this.grpDashboardTotalUsers_Administrator.Name = "grpDashboardTotalUsers_Administrator";
+            this.grpDashboardTotalUsers_Administrator.Size = new System.Drawing.Size(282, 100);
+            this.grpDashboardTotalUsers_Administrator.TabIndex = 29;
+            this.grpDashboardTotalUsers_Administrator.TabStop = false;
             // 
-            // textBox4
+            // txtDashboardTotalUsers_Administrator
             // 
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(13, 52);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.ReadOnly = true;
-            this.textBox4.Size = new System.Drawing.Size(77, 31);
-            this.textBox4.TabIndex = 5;
+            this.txtDashboardTotalUsers_Administrator.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDashboardTotalUsers_Administrator.Location = new System.Drawing.Point(13, 52);
+            this.txtDashboardTotalUsers_Administrator.Name = "txtDashboardTotalUsers_Administrator";
+            this.txtDashboardTotalUsers_Administrator.ReadOnly = true;
+            this.txtDashboardTotalUsers_Administrator.Size = new System.Drawing.Size(77, 31);
+            this.txtDashboardTotalUsers_Administrator.TabIndex = 5;
             // 
-            // label13
+            // lblDashboardTotalUsers_Administrator
             // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(10, 25);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(100, 15);
-            this.label13.TabIndex = 4;
-            this.label13.Text = "TOTAL USERS";
+            this.lblDashboardTotalUsers_Administrator.AutoSize = true;
+            this.lblDashboardTotalUsers_Administrator.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDashboardTotalUsers_Administrator.Location = new System.Drawing.Point(10, 25);
+            this.lblDashboardTotalUsers_Administrator.Name = "lblDashboardTotalUsers_Administrator";
+            this.lblDashboardTotalUsers_Administrator.Size = new System.Drawing.Size(100, 15);
+            this.lblDashboardTotalUsers_Administrator.TabIndex = 4;
+            this.lblDashboardTotalUsers_Administrator.Text = "TOTAL USERS";
             // 
-            // groupBox2
+            // grbLogo_Administrator
             // 
-            this.groupBox2.Controls.Add(this.pictureBox1);
-            this.groupBox2.Controls.Add(this.label2);
-            this.groupBox2.Controls.Add(this.label1);
-            this.groupBox2.Location = new System.Drawing.Point(12, 12);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(754, 74);
-            this.groupBox2.TabIndex = 42;
-            this.groupBox2.TabStop = false;
+            this.grbLogo_Administrator.Controls.Add(this.picCyberTrackLogo_Administrator);
+            this.grbLogo_Administrator.Controls.Add(this.lblIncidentManagementSystem_Administrator);
+            this.grbLogo_Administrator.Controls.Add(this.lblCyberTrack_Administrator);
+            this.grbLogo_Administrator.Location = new System.Drawing.Point(12, 12);
+            this.grbLogo_Administrator.Name = "grbLogo_Administrator";
+            this.grbLogo_Administrator.Size = new System.Drawing.Size(754, 74);
+            this.grbLogo_Administrator.TabIndex = 85;
+            this.grbLogo_Administrator.TabStop = false;
             // 
-            // pictureBox1
+            // picCyberTrackLogo_Administrator
             // 
-            this.pictureBox1.BackgroundImage = global::CyberTrack_Administrator.Properties.Resources.CyberTrackLogo;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.ErrorImage = null;
-            this.pictureBox1.InitialImage = null;
-            this.pictureBox1.Location = new System.Drawing.Point(6, 19);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(44, 42);
-            this.pictureBox1.TabIndex = 25;
-            this.pictureBox1.TabStop = false;
+            this.picCyberTrackLogo_Administrator.Image = ((System.Drawing.Image)(resources.GetObject("picCyberTrackLogo_Administrator.Image")));
+            this.picCyberTrackLogo_Administrator.Location = new System.Drawing.Point(6, 19);
+            this.picCyberTrackLogo_Administrator.Name = "picCyberTrackLogo_Administrator";
+            this.picCyberTrackLogo_Administrator.Size = new System.Drawing.Size(44, 42);
+            this.picCyberTrackLogo_Administrator.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picCyberTrackLogo_Administrator.TabIndex = 25;
+            this.picCyberTrackLogo_Administrator.TabStop = false;
             // 
-            // label2
+            // lblIncidentManagementSystem_Administrator
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(60, 47);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(150, 13);
-            this.label2.TabIndex = 27;
-            this.label2.Text = "Incident Management Systtem";
+            this.lblIncidentManagementSystem_Administrator.AutoSize = true;
+            this.lblIncidentManagementSystem_Administrator.Location = new System.Drawing.Point(60, 47);
+            this.lblIncidentManagementSystem_Administrator.Name = "lblIncidentManagementSystem_Administrator";
+            this.lblIncidentManagementSystem_Administrator.Size = new System.Drawing.Size(150, 13);
+            this.lblIncidentManagementSystem_Administrator.TabIndex = 27;
+            this.lblIncidentManagementSystem_Administrator.Text = "Incident Management Systtem";
             // 
-            // label1
+            // lblCyberTrack_Administrator
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(57, 19);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(119, 18);
-            this.label1.TabIndex = 26;
-            this.label1.Text = "CYBERTRACK";
+            this.lblCyberTrack_Administrator.AutoSize = true;
+            this.lblCyberTrack_Administrator.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCyberTrack_Administrator.Location = new System.Drawing.Point(57, 19);
+            this.lblCyberTrack_Administrator.Name = "lblCyberTrack_Administrator";
+            this.lblCyberTrack_Administrator.Size = new System.Drawing.Size(119, 18);
+            this.lblCyberTrack_Administrator.TabIndex = 26;
+            this.lblCyberTrack_Administrator.Text = "CYBERTRACK";
             // 
-            // groupBox6
+            // grbUserLogo_Administrator
             // 
-            this.groupBox6.Controls.Add(this.textBox30);
-            this.groupBox6.Controls.Add(this.textBox31);
-            this.groupBox6.Controls.Add(this.textBox32);
-            this.groupBox6.Controls.Add(this.label6);
-            this.groupBox6.Controls.Add(this.label5);
-            this.groupBox6.Controls.Add(this.label4);
-            this.groupBox6.Controls.Add(this.label3);
-            this.groupBox6.Location = new System.Drawing.Point(772, 12);
-            this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(311, 74);
-            this.groupBox6.TabIndex = 40;
-            this.groupBox6.TabStop = false;
+            this.grbUserLogo_Administrator.Controls.Add(this.picUserPhoto_Administrator);
+            this.grbUserLogo_Administrator.Controls.Add(this.lblUserRole_Administrator);
+            this.grbUserLogo_Administrator.Controls.Add(this.lblUserName_Administrator);
+            this.grbUserLogo_Administrator.Location = new System.Drawing.Point(1089, 12);
+            this.grbUserLogo_Administrator.Name = "grbUserLogo_Administrator";
+            this.grbUserLogo_Administrator.Size = new System.Drawing.Size(183, 74);
+            this.grbUserLogo_Administrator.TabIndex = 84;
+            this.grbUserLogo_Administrator.TabStop = false;
             // 
-            // textBox30
+            // picUserPhoto_Administrator
             // 
-            this.textBox30.Location = new System.Drawing.Point(257, 40);
-            this.textBox30.Multiline = true;
-            this.textBox30.Name = "textBox30";
-            this.textBox30.ReadOnly = true;
-            this.textBox30.Size = new System.Drawing.Size(47, 20);
-            this.textBox30.TabIndex = 25;
-            this.textBox30.Text = "YES";
-            this.textBox30.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.picUserPhoto_Administrator.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picUserPhoto_Administrator.BackgroundImage")));
+            this.picUserPhoto_Administrator.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picUserPhoto_Administrator.ErrorImage = null;
+            this.picUserPhoto_Administrator.InitialImage = null;
+            this.picUserPhoto_Administrator.Location = new System.Drawing.Point(11, 19);
+            this.picUserPhoto_Administrator.Name = "picUserPhoto_Administrator";
+            this.picUserPhoto_Administrator.Size = new System.Drawing.Size(44, 42);
+            this.picUserPhoto_Administrator.TabIndex = 5;
+            this.picUserPhoto_Administrator.TabStop = false;
             // 
-            // textBox31
+            // lblUserRole_Administrator
             // 
-            this.textBox31.Location = new System.Drawing.Point(157, 40);
-            this.textBox31.Multiline = true;
-            this.textBox31.Name = "textBox31";
-            this.textBox31.ReadOnly = true;
-            this.textBox31.Size = new System.Drawing.Size(47, 20);
-            this.textBox31.TabIndex = 24;
-            this.textBox31.Text = "YES";
-            this.textBox31.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.lblUserRole_Administrator.AutoSize = true;
+            this.lblUserRole_Administrator.Location = new System.Drawing.Point(71, 47);
+            this.lblUserRole_Administrator.Name = "lblUserRole_Administrator";
+            this.lblUserRole_Administrator.Size = new System.Drawing.Size(42, 13);
+            this.lblUserRole_Administrator.TabIndex = 5;
+            this.lblUserRole_Administrator.Text = "ADMIN";
             // 
-            // textBox32
+            // lblUserName_Administrator
             // 
-            this.textBox32.Location = new System.Drawing.Point(51, 40);
-            this.textBox32.Multiline = true;
-            this.textBox32.Name = "textBox32";
-            this.textBox32.ReadOnly = true;
-            this.textBox32.Size = new System.Drawing.Size(47, 20);
-            this.textBox32.TabIndex = 23;
-            this.textBox32.Text = "YES";
-            this.textBox32.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.lblUserName_Administrator.AutoSize = true;
+            this.lblUserName_Administrator.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUserName_Administrator.Location = new System.Drawing.Point(71, 19);
+            this.lblUserName_Administrator.Name = "lblUserName_Administrator";
+            this.lblUserName_Administrator.Size = new System.Drawing.Size(99, 16);
+            this.lblUserName_Administrator.TabIndex = 5;
+            this.lblUserName_Administrator.Text = "Skibidi Toilet";
             // 
-            // label6
+            // grbPermissions_Administrator
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(210, 43);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(41, 13);
-            this.label6.TabIndex = 6;
-            this.label6.Text = "Delete:";
+            this.grbPermissions_Administrator.Controls.Add(this.txtDelete_Administrator);
+            this.grbPermissions_Administrator.Controls.Add(this.txtUpdate_Administrator);
+            this.grbPermissions_Administrator.Controls.Add(this.txtCreate_Administrator);
+            this.grbPermissions_Administrator.Controls.Add(this.lblDelete_Administrator);
+            this.grbPermissions_Administrator.Controls.Add(this.lblUpdate_Administrator);
+            this.grbPermissions_Administrator.Controls.Add(this.lblCreate_Administrator);
+            this.grbPermissions_Administrator.Controls.Add(this.lblPermissions_Administrator);
+            this.grbPermissions_Administrator.Location = new System.Drawing.Point(772, 12);
+            this.grbPermissions_Administrator.Name = "grbPermissions_Administrator";
+            this.grbPermissions_Administrator.Size = new System.Drawing.Size(311, 74);
+            this.grbPermissions_Administrator.TabIndex = 83;
+            this.grbPermissions_Administrator.TabStop = false;
             // 
-            // label5
+            // txtDelete_Administrator
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(106, 43);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(45, 13);
-            this.label5.TabIndex = 5;
-            this.label5.Text = "Update:";
+            this.txtDelete_Administrator.Location = new System.Drawing.Point(257, 40);
+            this.txtDelete_Administrator.Multiline = true;
+            this.txtDelete_Administrator.Name = "txtDelete_Administrator";
+            this.txtDelete_Administrator.ReadOnly = true;
+            this.txtDelete_Administrator.Size = new System.Drawing.Size(47, 20);
+            this.txtDelete_Administrator.TabIndex = 25;
+            this.txtDelete_Administrator.Text = "YES";
+            this.txtDelete_Administrator.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // label4
+            // txtUpdate_Administrator
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(6, 43);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(41, 13);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "Create:";
+            this.txtUpdate_Administrator.Location = new System.Drawing.Point(157, 40);
+            this.txtUpdate_Administrator.Multiline = true;
+            this.txtUpdate_Administrator.Name = "txtUpdate_Administrator";
+            this.txtUpdate_Administrator.ReadOnly = true;
+            this.txtUpdate_Administrator.Size = new System.Drawing.Size(47, 20);
+            this.txtUpdate_Administrator.TabIndex = 24;
+            this.txtUpdate_Administrator.Text = "YES";
+            this.txtUpdate_Administrator.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // label3
+            // txtCreate_Administrator
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(6, 16);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(92, 16);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "Permissions";
+            this.txtCreate_Administrator.Location = new System.Drawing.Point(51, 40);
+            this.txtCreate_Administrator.Multiline = true;
+            this.txtCreate_Administrator.Name = "txtCreate_Administrator";
+            this.txtCreate_Administrator.ReadOnly = true;
+            this.txtCreate_Administrator.Size = new System.Drawing.Size(47, 20);
+            this.txtCreate_Administrator.TabIndex = 23;
+            this.txtCreate_Administrator.Text = "YES";
+            this.txtCreate_Administrator.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // groupBox10
+            // lblDelete_Administrator
             // 
-            this.groupBox10.Controls.Add(this.pictureBox2);
-            this.groupBox10.Controls.Add(this.label8);
-            this.groupBox10.Controls.Add(this.label7);
-            this.groupBox10.Location = new System.Drawing.Point(1089, 12);
-            this.groupBox10.Name = "groupBox10";
-            this.groupBox10.Size = new System.Drawing.Size(183, 74);
-            this.groupBox10.TabIndex = 41;
-            this.groupBox10.TabStop = false;
+            this.lblDelete_Administrator.AutoSize = true;
+            this.lblDelete_Administrator.Location = new System.Drawing.Point(210, 43);
+            this.lblDelete_Administrator.Name = "lblDelete_Administrator";
+            this.lblDelete_Administrator.Size = new System.Drawing.Size(41, 13);
+            this.lblDelete_Administrator.TabIndex = 6;
+            this.lblDelete_Administrator.Text = "Delete:";
             // 
-            // pictureBox2
+            // lblUpdate_Administrator
             // 
-            this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.ErrorImage = null;
-            this.pictureBox2.InitialImage = null;
-            this.pictureBox2.Location = new System.Drawing.Point(11, 19);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(44, 42);
-            this.pictureBox2.TabIndex = 5;
-            this.pictureBox2.TabStop = false;
+            this.lblUpdate_Administrator.AutoSize = true;
+            this.lblUpdate_Administrator.Location = new System.Drawing.Point(106, 43);
+            this.lblUpdate_Administrator.Name = "lblUpdate_Administrator";
+            this.lblUpdate_Administrator.Size = new System.Drawing.Size(45, 13);
+            this.lblUpdate_Administrator.TabIndex = 5;
+            this.lblUpdate_Administrator.Text = "Update:";
             // 
-            // label8
+            // lblCreate_Administrator
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(71, 47);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(42, 13);
-            this.label8.TabIndex = 5;
-            this.label8.Text = "ADMIN";
+            this.lblCreate_Administrator.AutoSize = true;
+            this.lblCreate_Administrator.Location = new System.Drawing.Point(6, 43);
+            this.lblCreate_Administrator.Name = "lblCreate_Administrator";
+            this.lblCreate_Administrator.Size = new System.Drawing.Size(41, 13);
+            this.lblCreate_Administrator.TabIndex = 4;
+            this.lblCreate_Administrator.Text = "Create:";
             // 
-            // label7
+            // lblPermissions_Administrator
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(71, 19);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(99, 16);
-            this.label7.TabIndex = 5;
-            this.label7.Text = "Skibidi Toilet";
+            this.lblPermissions_Administrator.AutoSize = true;
+            this.lblPermissions_Administrator.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPermissions_Administrator.Location = new System.Drawing.Point(6, 16);
+            this.lblPermissions_Administrator.Name = "lblPermissions_Administrator";
+            this.lblPermissions_Administrator.Size = new System.Drawing.Size(92, 16);
+            this.lblPermissions_Administrator.TabIndex = 4;
+            this.lblPermissions_Administrator.Text = "Permissions";
             // 
             // Dashboard_Administrator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1284, 1061);
-            this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.groupBox6);
-            this.Controls.Add(this.groupBox10);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.grbLogo_Administrator);
+            this.Controls.Add(this.grbUserLogo_Administrator);
+            this.Controls.Add(this.AdministratorGB_Administrator);
+            this.Controls.Add(this.grbPermissions_Administrator);
             this.Name = "Dashboard_Administrator";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dashboard_Administrator";
             this.Load += new System.EventHandler(this.Dashboard_Administrator_Load);
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            this.groupBox12.ResumeLayout(false);
-            this.groupBox12.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            this.groupBox11.ResumeLayout(false);
-            this.groupBox11.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            this.groupBox8.ResumeLayout(false);
-            this.groupBox8.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            this.groupBox4.ResumeLayout(false);
-            this.groupBox4.PerformLayout();
-            this.groupBox5.ResumeLayout(false);
-            this.groupBox5.PerformLayout();
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            this.groupBox7.ResumeLayout(false);
-            this.groupBox7.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            this.groupBox9.ResumeLayout(false);
-            this.groupBox9.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.groupBox6.ResumeLayout(false);
-            this.groupBox6.PerformLayout();
-            this.groupBox10.ResumeLayout(false);
-            this.groupBox10.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.AdministratorGB_Administrator.ResumeLayout(false);
+            this.AdministratorGB_Administrator.PerformLayout();
+            this.grpDashboardUserManagement_Administrator.ResumeLayout(false);
+            this.grpDashboardUserManagement_Administrator.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDashboardUserManagement_Administrator)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picDashboardUserManagement_Administrator)).EndInit();
+            this.grpDashboardRecSysAct_Administrator.ResumeLayout(false);
+            this.grpDashboardRecSysAct_Administrator.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvRecSysAct_Administrator)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picRecSysAct_Administrator)).EndInit();
+            this.grpDashboardCritCasesReqAction_Administrator.ResumeLayout(false);
+            this.grpDashboardCritCasesReqAction_Administrator.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDashboardCritCasesReqAction_Administrator)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picDashboardCritCasesReqAction_Administrator)).EndInit();
+            this.grpDashboardActiveCases_Administrator.ResumeLayout(false);
+            this.grpDashboardActiveCases_Administrator.PerformLayout();
+            this.grpDashboardCritical_Administrator.ResumeLayout(false);
+            this.grpDashboardCritical_Administrator.PerformLayout();
+            this.grpDashboardTotalCases_Administrator.ResumeLayout(false);
+            this.grpDashboardTotalCases_Administrator.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picDashboardAd_Administrator)).EndInit();
+            this.grpDashboardSysManagement_Administrator.ResumeLayout(false);
+            this.grpDashboardSysManagement_Administrator.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picSysManagement_Adminstrator)).EndInit();
+            this.grpDashboardTotalUsers_Administrator.ResumeLayout(false);
+            this.grpDashboardTotalUsers_Administrator.PerformLayout();
+            this.grbLogo_Administrator.ResumeLayout(false);
+            this.grbLogo_Administrator.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picCyberTrackLogo_Administrator)).EndInit();
+            this.grbUserLogo_Administrator.ResumeLayout(false);
+            this.grbUserLogo_Administrator.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picUserPhoto_Administrator)).EndInit();
+            this.grbPermissions_Administrator.ResumeLayout(false);
+            this.grbPermissions_Administrator.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.GroupBox groupBox8;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.GroupBox groupBox5;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.GroupBox groupBox7;
+        private System.Windows.Forms.GroupBox AdministratorGB_Administrator;
+        private System.Windows.Forms.GroupBox grpDashboardCritCasesReqAction_Administrator;
+        private System.Windows.Forms.PictureBox picDashboardCritCasesReqAction_Administrator;
+        private System.Windows.Forms.Label lblDashboardCritCasesReqAction_Administrator;
+        private System.Windows.Forms.GroupBox grpDashboardActiveCases_Administrator;
+        private System.Windows.Forms.TextBox txtDashboardActiveCases_Administrator;
+        private System.Windows.Forms.Label lblDashboardActiveCases_Administrator;
+        private System.Windows.Forms.GroupBox grpDashboardCritical_Administrator;
+        private System.Windows.Forms.TextBox txtDashboardCritical_Administrator;
+        private System.Windows.Forms.Label lblDashboardCritical_Administrator;
+        private System.Windows.Forms.GroupBox grpDashboardTotalCases_Administrator;
+        private System.Windows.Forms.TextBox txtDashboardTotalCases_Administrator;
+        private System.Windows.Forms.Label lblDashboardTotalCases_Administrator;
+        private System.Windows.Forms.Label lblAdminDashDesc_Administrator;
+        private System.Windows.Forms.Label lblDashboardAd_Administrator;
+        private System.Windows.Forms.PictureBox picDashboardAd_Administrator;
+        private System.Windows.Forms.GroupBox grpDashboardSysManagement_Administrator;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.GroupBox groupBox9;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.GroupBox groupBox6;
-        private System.Windows.Forms.TextBox textBox30;
-        private System.Windows.Forms.TextBox textBox31;
-        private System.Windows.Forms.TextBox textBox32;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.GroupBox groupBox10;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.GroupBox groupBox11;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.GroupBox groupBox12;
-        private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.DataGridView dataGridView2;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridView dataGridView3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ACTIVITY;
-        private System.Windows.Forms.DataGridViewTextBoxColumn NAME;
-        private System.Windows.Forms.DataGridViewTextBoxColumn EMAIL;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ROLE;
-        private System.Windows.Forms.DataGridViewTextBoxColumn DEPARTMENT;
-        private System.Windows.Forms.DataGridViewTextBoxColumn STATUS_UM;
-        private System.Windows.Forms.DataGridViewTextBoxColumn CASE_ID;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Title;
-        private System.Windows.Forms.DataGridViewTextBoxColumn STATUS;
-        private System.Windows.Forms.DataGridViewComboBoxColumn ASSIGNED_TO;
-        private System.Windows.Forms.DataGridViewTextBoxColumn REPORTED_ON;
-        private System.Windows.Forms.DataGridViewButtonColumn ACTION;
+        private System.Windows.Forms.GroupBox grpDashboardTotalUsers_Administrator;
+        private System.Windows.Forms.TextBox txtDashboardTotalUsers_Administrator;
+        private System.Windows.Forms.Label lblDashboardTotalUsers_Administrator;
+        private System.Windows.Forms.GroupBox grpDashboardRecSysAct_Administrator;
+        private System.Windows.Forms.PictureBox picRecSysAct_Administrator;
+        private System.Windows.Forms.Label lblRecSysAct_Administrator;
+        private System.Windows.Forms.PictureBox picSysManagement_Adminstrator;
+        private System.Windows.Forms.Button btnDashboardCreateNewCase_Administrator;
+        private System.Windows.Forms.Button btnDashboardViewAllCases_Administrator;
+        private System.Windows.Forms.Button btnDashboardViewAuditLogs_Administrator;
+        private System.Windows.Forms.GroupBox grpDashboardUserManagement_Administrator;
+        private System.Windows.Forms.PictureBox picDashboardUserManagement_Administrator;
+        private System.Windows.Forms.Label lblDashboardUserManagement_Administrator;
+        private System.Windows.Forms.DataGridView dgvDashboardCritCasesReqAction_Administrator;
+        private System.Windows.Forms.DataGridView dgvDashboardUserManagement_Administrator;
+        private System.Windows.Forms.DataGridView dgvRecSysAct_Administrator;
+        private System.Windows.Forms.DataGridViewTextBoxColumn txtDashboardRecentSystemAct_Administrator;
+        private System.Windows.Forms.DataGridViewTextBoxColumn txtDashboardCaseID_Administrator;
+        private System.Windows.Forms.DataGridViewTextBoxColumn txtDashboardTitle_Administrator;
+        private System.Windows.Forms.DataGridViewTextBoxColumn txtDashboardStatus_Administrator;
+        private System.Windows.Forms.DataGridViewComboBoxColumn cmbDashboardAssignedTo_Administrator;
+        private System.Windows.Forms.DataGridViewTextBoxColumn txtDashboardReportedOn_Administrator;
+        private System.Windows.Forms.DataGridViewButtonColumn btnDashboardAction_Administrator;
+        private System.Windows.Forms.DataGridViewTextBoxColumn txtDashboardName_Administrator;
+        private System.Windows.Forms.DataGridViewTextBoxColumn txtDashboardEmail_Administrator;
+        private System.Windows.Forms.DataGridViewTextBoxColumn txtDashboardRole_Administrator;
+        private System.Windows.Forms.DataGridViewTextBoxColumn txtDashboardDepartment_Administrator;
+        private System.Windows.Forms.DataGridViewTextBoxColumn txtDashboardStatus2_Administrator;
+        private System.Windows.Forms.GroupBox grbLogo_Administrator;
+        private System.Windows.Forms.PictureBox picCyberTrackLogo_Administrator;
+        private System.Windows.Forms.Label lblIncidentManagementSystem_Administrator;
+        private System.Windows.Forms.Label lblCyberTrack_Administrator;
+        private System.Windows.Forms.GroupBox grbUserLogo_Administrator;
+        private System.Windows.Forms.PictureBox picUserPhoto_Administrator;
+        private System.Windows.Forms.Label lblUserRole_Administrator;
+        private System.Windows.Forms.Label lblUserName_Administrator;
+        private System.Windows.Forms.GroupBox grbPermissions_Administrator;
+        private System.Windows.Forms.TextBox txtDelete_Administrator;
+        private System.Windows.Forms.TextBox txtUpdate_Administrator;
+        private System.Windows.Forms.TextBox txtCreate_Administrator;
+        private System.Windows.Forms.Label lblDelete_Administrator;
+        private System.Windows.Forms.Label lblUpdate_Administrator;
+        private System.Windows.Forms.Label lblCreate_Administrator;
+        private System.Windows.Forms.Label lblPermissions_Administrator;
     }
 }
